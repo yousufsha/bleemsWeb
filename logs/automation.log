@@ -1,0 +1,20 @@
+2026-05-11 22:32:22,607(HH:mm:ss.SSS) [main] INFO  testCases.LoginTest - *************Account is logged in*****************
+2026-05-11 22:32:25,668(HH:mm:ss.SSS) [main] INFO  testCases.LoginTest - *************Account button is clicked*****************
+2026-05-11 22:32:25,840(HH:mm:ss.SSS) [main] INFO  testCases.LoginTest - *************logged in Verified*****************
+2026-05-11 22:32:44,288(HH:mm:ss.SSS) [main] INFO  testCases.LogoutTest - *************Account is logged in*****************
+2026-05-11 22:32:47,723(HH:mm:ss.SSS) [main] INFO  testCases.LogoutTest - *************logout button clicked***************
+2026-05-11 22:32:52,636(HH:mm:ss.SSS) [main] INFO  testCases.LogoutTest - *************Verified logout***************
+2026-05-11 22:33:11,824(HH:mm:ss.SSS) [main] INFO  testCases.SearchTest - *************Account is logged in*****************
+2026-05-11 22:33:16,675(HH:mm:ss.SSS) [main] INFO  testCases.SearchTest - ***********Cart clicked***********
+2026-05-11 22:33:16,894(HH:mm:ss.SSS) [main] INFO  testCases.SearchTest - ***********Search clicked***********
+2026-05-11 22:33:17,583(HH:mm:ss.SSS) [main] INFO  testCases.SearchTest - ***********Search key inserted***********
+2026-05-11 22:33:21,307(HH:mm:ss.SSS) [main] INFO  testCases.SearchTest - ****************Item Clicked*****************
+2026-05-11 22:33:21,371(HH:mm:ss.SSS) [main] INFO  testCases.SearchTest - ****************Search Verified*****************
+2026-05-11 22:33:37,943(HH:mm:ss.SSS) [main] INFO  testCases.HomePageTest - *************Account is logged in*****************
+2026-05-11 22:33:40,919(HH:mm:ss.SSS) [main] INFO  testCases.HomePageTest - *************verified Homepage Loaded**************
+2026-05-11 22:33:57,085(HH:mm:ss.SSS) [main] INFO  testCases.SearchItemTest - *************Account is logged in*****************
+2026-05-11 22:34:00,123(HH:mm:ss.SSS) [main] INFO  testCases.SearchItemTest - *************Search clicked***************
+2026-05-11 22:34:00,947(HH:mm:ss.SSS) [main] INFO  testCases.SearchItemTest - *************Search Value Entered***************
+2026-05-11 22:34:05,935(HH:mm:ss.SSS) [main] INFO  testCases.SearchItemTest - *************Search product clicked***************
+2026-05-11 22:34:05,996(HH:mm:ss.SSS) [main] INFO  testCases.SearchItemTest - *************Product title copied***************
+2026-05-11 22:34:06,000(HH:mm:ss.SSS) [main] INFO  testCases.SearchItemTest - *************Verified Search Item***************

@@ -16,7 +16,7 @@ public class ProductPage extends BasePage {
 	public boolean titleDisplayed() {
 		return productTitle.isDisplayed();
 	}
-	public String getTitle() {
+	public String getItemTitle() {
 		return productTitle.getText();
 	}
 	
@@ -26,13 +26,7 @@ public class ProductPage extends BasePage {
 		return productDiscribtion.getText();
 	}
 	
-	@FindBy(xpath="//h6[contains(text(),'Take Bleems with you')]")
-	WebElement pageEnd;
-	public String getEndText() {
-		 wait.until(ExpectedConditions.visibilityOf(pageEnd));
-		js.executeScript("arguments[0].scrollIntoView(true);",pageEnd);
-		return pageEnd.getText().trim();
-	}
+	
 	
 	
 	

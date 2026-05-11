@@ -93,5 +93,11 @@ public class HomePage extends BasePage {
 		wait.until(ExpectedConditions.elementToBeClickable(cartBtn)).click();
 	}
 	
-	
+	@FindBy(xpath="//h6[contains(text(),'Take Bleems with you')]")
+	WebElement pageEnd;
+	public String getEndText() {
+		 wait.until(ExpectedConditions.visibilityOf(pageEnd));
+		js.executeScript("arguments[0].scrollIntoView(true);",pageEnd);
+		return pageEnd.getText().trim();
+	}
 }
