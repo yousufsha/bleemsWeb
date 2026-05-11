@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-11T15:28:57 AST" name="Suite" finished-at="2026-05-11T15:30:05 AST" duration-ms="68039">
+    <groups>
+    </groups>
+    <test started-at="2026-05-11T15:28:57 AST" name="Test" finished-at="2026-05-11T15:30:05 AST" duration-ms="68039">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LoginTest@6743e411]" started-at="2026-05-11T15:28:57 AST" name="setUp" finished-at="2026-05-11T15:29:12 AST" duration-ms="15882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_login()[pri:0, instance:test.LoginTest@6743e411]" started-at="2026-05-11T15:29:12 AST" name="verify_login" finished-at="2026-05-11T15:29:16 AST" duration-ms="3084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LoginTest@6743e411]" started-at="2026-05-11T15:29:16 AST" name="tearDown" finished-at="2026-05-11T15:29:16 AST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+      <class name="test.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SearchTest@24313fcc]" started-at="2026-05-11T15:29:40 AST" name="setUp" finished-at="2026-05-11T15:29:54 AST" duration-ms="14275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_SearchItem()[pri:0, instance:test.SearchTest@24313fcc]" started-at="2026-05-11T15:29:54 AST" name="Verify_SearchItem" finished-at="2026-05-11T15:30:04 AST" duration-ms="10332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SearchItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.SearchTest@24313fcc]" started-at="2026-05-11T15:30:04 AST" name="tearDown" finished-at="2026-05-11T15:30:05 AST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.SearchTest -->
+      <class name="test.LogoutTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.LogoutTest@5e5d171f]" started-at="2026-05-11T15:29:16 AST" name="setUp" finished-at="2026-05-11T15:29:31 AST" duration-ms="15707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_Logout()[pri:0, instance:test.LogoutTest@5e5d171f]" started-at="2026-05-11T15:29:31 AST" name="verify_Logout" finished-at="2026-05-11T15:29:39 AST" duration-ms="8023" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.LogoutTest@5e5d171f]" started-at="2026-05-11T15:29:39 AST" name="tearDown" finished-at="2026-05-11T15:29:40 AST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LogoutTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

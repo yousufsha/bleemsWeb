@@ -1,0 +1,31 @@
+2026-05-11 15:16:17,896(HH:mm:ss.SSS) [main] INFO  test.LogoutTest - *************Verified logout***************
+2026-05-11 15:16:32,659(HH:mm:ss.SSS) [main] INFO  test.SearchTest - *************Account is logged in*****************
+2026-05-11 15:16:37,158(HH:mm:ss.SSS) [main] INFO  test.SearchTest - ***********Cart clicked***********
+2026-05-11 15:16:37,286(HH:mm:ss.SSS) [main] INFO  test.SearchTest - ***********Search clicked***********
+2026-05-11 15:16:37,875(HH:mm:ss.SSS) [main] INFO  test.SearchTest - ***********Search key inserted***********
+2026-05-11 15:16:39,994(HH:mm:ss.SSS) [main] INFO  test.SearchTest - ****************Item Clicked*****************
+2026-05-11 15:16:40,041(HH:mm:ss.SSS) [main] INFO  test.SearchTest - ****************Search Verified*****************
+2026-05-11 15:27:27,138(HH:mm:ss.SSS) [main] INFO  test.LoginTest - *************Account is logged in*****************
+2026-05-11 15:27:30,758(HH:mm:ss.SSS) [main] INFO  test.LoginTest - *************Account button is clicked*****************
+2026-05-11 15:27:30,854(HH:mm:ss.SSS) [main] INFO  test.LoginTest - *************logged in Verified*****************
+2026-05-11 15:27:45,521(HH:mm:ss.SSS) [main] INFO  test.LogoutTest - *************Account is logged in*****************
+2026-05-11 15:27:48,603(HH:mm:ss.SSS) [main] INFO  test.LogoutTest - *************logout button clicked***************
+2026-05-11 15:27:53,098(HH:mm:ss.SSS) [main] INFO  test.LogoutTest - *************Verified logout***************
+2026-05-11 15:28:08,801(HH:mm:ss.SSS) [main] INFO  test.SearchTest - *************Account is logged in*****************
+2026-05-11 15:28:13,040(HH:mm:ss.SSS) [main] INFO  test.SearchTest - ***********Cart clicked***********
+2026-05-11 15:28:13,200(HH:mm:ss.SSS) [main] INFO  test.SearchTest - ***********Search clicked***********
+2026-05-11 15:28:13,795(HH:mm:ss.SSS) [main] INFO  test.SearchTest - ***********Search key inserted***********
+2026-05-11 15:28:16,158(HH:mm:ss.SSS) [main] INFO  test.SearchTest - ****************Item Clicked*****************
+2026-05-11 15:28:16,236(HH:mm:ss.SSS) [main] INFO  test.SearchTest - ****************Search Verified*****************
+2026-05-11 15:29:12,923(HH:mm:ss.SSS) [main] INFO  test.LoginTest - *************Account is logged in*****************
+2026-05-11 15:29:15,740(HH:mm:ss.SSS) [main] INFO  test.LoginTest - *************Account button is clicked*****************
+2026-05-11 15:29:16,007(HH:mm:ss.SSS) [main] INFO  test.LoginTest - *************logged in Verified*****************
+2026-05-11 15:29:31,961(HH:mm:ss.SSS) [main] INFO  test.LogoutTest - *************Account is logged in*****************
+2026-05-11 15:29:35,219(HH:mm:ss.SSS) [main] INFO  test.LogoutTest - *************logout button clicked***************
+2026-05-11 15:29:39,984(HH:mm:ss.SSS) [main] INFO  test.LogoutTest - *************Verified logout***************
+2026-05-11 15:29:54,498(HH:mm:ss.SSS) [main] INFO  test.SearchTest - *************Account is logged in*****************
+2026-05-11 15:29:59,698(HH:mm:ss.SSS) [main] INFO  test.SearchTest - ***********Cart clicked***********
+2026-05-11 15:29:59,794(HH:mm:ss.SSS) [main] INFO  test.SearchTest - ***********Search clicked***********
+2026-05-11 15:30:00,400(HH:mm:ss.SSS) [main] INFO  test.SearchTest - ***********Search key inserted***********
+2026-05-11 15:30:04,792(HH:mm:ss.SSS) [main] INFO  test.SearchTest - ****************Item Clicked*****************
+2026-05-11 15:30:04,831(HH:mm:ss.SSS) [main] INFO  test.SearchTest - ****************Search Verified*****************
