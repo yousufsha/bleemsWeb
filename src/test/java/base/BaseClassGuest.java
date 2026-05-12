@@ -1,8 +1,7 @@
 package base;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
-import pageElement.HomePage;
 import java.time.Duration;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
@@ -11,9 +10,11 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-public class BaseClass {
+import io.github.bonigarcia.wdm.WebDriverManager;
+import pageElement.HomePage;
 
-    public static WebDriver driver;
+public class BaseClassGuest {
+	public static WebDriver driver;
     public Logger logger;
 
     @BeforeMethod
@@ -21,7 +22,7 @@ public class BaseClass {
 
     	 WebDriverManager.chromedriver().setup();
     	 
-    	 // Block Notification
+         // Block Notification
     	 ChromeOptions options = new ChromeOptions();
          options.addArguments("--disable-notifications");
          options.addArguments("--disable-geolocation");
@@ -33,21 +34,13 @@ public class BaseClass {
          driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
          
          logger = LogManager.getLogger(this.getClass());
-        
+         
          driver.get("https://pci.bleems.com/kw");
+ 		
         
-        HomePage home = new HomePage(driver);
- 		home.clickLoginbtn();
- 		home.clickContinueWithEmail();
- 		home.enterEmailId("shameem@bleems.com");
- 		home.clickSubmitBtn();
- 		home.enterPassword("Yousuf@123");
- 		home.clickSubmitBtn();
- 		logger.info("*************Account is logged in*****************");
     }
 
-    
-    @AfterMethod
+//    @AfterMethod
     public void tearDown() {
         try {
             if (driver != null) {
@@ -58,6 +51,5 @@ public class BaseClass {
             System.out.println("Error while closing browser: " + e.getMessage());
         }
     }
-
 
 }
