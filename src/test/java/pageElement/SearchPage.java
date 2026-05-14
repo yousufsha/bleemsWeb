@@ -17,7 +17,7 @@ public class SearchPage extends BasePage{
 		item.click();
 	}
 	
-	@FindBy(xpath="//div[contains(text(),'Luxury Bouquet 150')]")
+	@FindBy(xpath="//a[@class='list-group-item']")
 	WebElement searchItem;
 	public void clickSearchItem() {
 		searchItem.click();

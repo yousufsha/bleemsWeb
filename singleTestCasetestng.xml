@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+	<listener class-name="utilityFiles.ExtentReportManager"></listener>
+</listeners>
+
+ <test thread-count="5" name="Test">
+  
+	<parameter name="user" value="loginUser"/> 
+	<parameter name="env" value="live"/>
+	
+ 	<parameter name="emailId" value="shameem@bleems.com"/>
+	<parameter name="password" value="Yousuf@123"/> 
+    <classes>
+	    <class name="testCases.ProductDetailsTest"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

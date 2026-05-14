@@ -10,14 +10,16 @@ import pageElement.SearchPage;
 
 public class SearchTest extends BaseClass {
 
-	@Test
+	@Test(groups= {"loginUser","guestUser"})
 	public void Verify_SearchItem() {
 		try {
 			
 			HomePage home = new HomePage(driver);
 			
-			home.clickCartBtn();
-			logger.info("***********Cart clicked***********");
+//			home.clickCartBtn();
+//			logger.info("***********Cart clicked***********");
+			
+			Thread.sleep(500);
 			home.clickSearchBtn();
 			logger.info("***********Search clicked***********");
 			home.enterSearchTxt("Love");

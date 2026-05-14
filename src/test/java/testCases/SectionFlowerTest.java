@@ -3,23 +3,27 @@ package testCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import base.BaseClassGuest;
+import base.BaseClass;
+import pageElement.FiltersPage;
 import pageElement.ProductPage;
 import pageElement.SectionsTabs;
 
-public class SectionFlowerTest extends BaseClassGuest{
+public class SectionFlowerTest extends BaseClass{
 	
-	@Test
+	@Test(groups= {"loginUser","guestUser"})
 	public void verifySectionFlower() {
 		try {
 			
 		SectionsTabs section = new SectionsTabs(driver);
+		
 		section.moveFlowersSection();
 		logger.info("**********Section flower selected************");
 		section.selectHandBouquets();
 		logger.info("****************SubType Hand Bouquets Selected********************");
 		
-		String filterChip = section.getFilterChip();
+		FiltersPage filter = new FiltersPage(driver);
+		
+		String filterChip = filter.getFilterChip();
 		Assert.assertEquals(filterChip, "Hand Bouquets");
 		
 		section.selectItemFromList();

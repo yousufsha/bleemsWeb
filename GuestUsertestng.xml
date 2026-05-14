@@ -6,14 +6,26 @@
 	<listener class-name="utilityFiles.ExtentReportManager"></listener>
 </listeners>
 
-  <test thread-count="5" name="Test">
+ <test thread-count="5" name="Test">
+  
+	<parameter name="user" value="guestUser"/> 
+
+	 <parameter name="env" value="live"/> 
+	<!-- <parameter name="env" value="live"/> -->
+	
+	 <parameter name="emailId" value="shameem@bleems.com"/>
+	 <parameter name="password" value="Yousuf@123"/>
+
     <classes>
-      <class name="testCases.LoginTest"/>
-      <class name="testCases.LogoutTest"/>
+<!--  <class name="testCases.LoginTest"/>
+      <class name="testCases.LogoutTest"/> -->
       <class name="testCases.SearchTest"/>
       <class name="testCases.HomePageTest"/>
       <class name="testCases.SearchItemTest"/>
       <class name="testCases.SectionFlowerTest"/>
+      <!-- <class name="testCases.SortTestConfection"/> -->
+     <class name="testCases.FilterGiftTest"/>
+      
       
     </classes>
   </test> <!-- Test -->

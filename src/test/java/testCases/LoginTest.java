@@ -7,7 +7,7 @@ import pageElement.HomePage;
 
 public class LoginTest extends BaseClass {
 	
-	@Test
+	@Test(groups="loginUser")
 	public void verify_login() {
 		
 		try {

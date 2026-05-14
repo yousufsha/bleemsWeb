@@ -5,14 +5,18 @@
     <listener class-name="utilityFiles.ExtentReportManager"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="Yousuf@123"/>
+    <parameter name="emailId" value="GuestAccount"/>
+    <parameter name="env" value="live"/>
+    <parameter name="user" value="guestUser"/>
     <classes>
-      <class name="testCases.SectionFlowerTest">
+      <class name="testCases.ProductDetailsTest">
         <methods>
-          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifySectionFlower"/>
+          <include name="setUp"/>
+          <include name="verify_ProductDetails"/>
         </methods>
-      </class> <!-- testCases.SectionFlowerTest -->
+      </class> <!-- testCases.ProductDetailsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

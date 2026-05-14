@@ -26,12 +26,6 @@ public class SectionsTabs extends BasePage {
 		subTypeFlower.click();
 	}
 	
-	@FindBy(xpath="//div[@class='dv-filter-chips-wrapper']")
-	WebElement filterChip;
-	public String getFilterChip() {
-		return filterChip.getText().trim();
-	}
-	
 	@FindBy(xpath="//div[@id='itemGroup']//div[@id='itemBlock'][3]")
 	WebElement itemList;
 	public void selectItemFromList() {
@@ -50,6 +44,12 @@ public class SectionsTabs extends BasePage {
 	WebElement sectionTitle;
 	public String getSectionTitle() {
 		return sectionTitle.getText().trim();
+	}
+	
+	@FindBy(xpath="//ul[@class='custom-navbar ']/li/a[contains(text(),'Gifts')]")
+	WebElement giftSection;
+	public void clickGiftSection() {
+		wait.until(ExpectedConditions.elementToBeClickable(giftSection)).click();
 	}
 	
 }

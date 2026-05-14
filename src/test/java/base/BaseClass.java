@@ -10,14 +10,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
 public class BaseClass {
 
     public static WebDriver driver;
     public Logger logger;
-
+    
+    @Parameters({"user", "env", "emailId", "password"})
     @BeforeMethod
-    public void setUp() {
+    public void setUp(String user, String env, String emailId, String password) {
 
     	 WebDriverManager.chromedriver().setup();
     	 
@@ -33,19 +35,28 @@ public class BaseClass {
          driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
          
          logger = LogManager.getLogger(this.getClass());
-        
-         driver.get("https://pci.bleems.com/kw");
-        
+         
+      switch(env) {  
+      case "test" :  driver.get("https://pci.bleems.com/kw"); break;
+      case "live" : driver.get("https://www.bleems.com/kw"); break;
+      }
+      
+      switch(user) {
+      case "loginUser": {
         HomePage home = new HomePage(driver);
  		home.clickLoginbtn();
  		home.clickContinueWithEmail();
- 		home.enterEmailId("shameem@bleems.com");
+ 		home.enterEmailId(emailId);
  		home.clickSubmitBtn();
- 		home.enterPassword("Yousuf@123");
+ 		home.enterPassword(password);
  		home.clickSubmitBtn();
  		logger.info("*************Account is logged in*****************");
+      	} break;
+      case "guestUser":
+    	logger.info("*************Guest User*****************"); break;
     }
-
+  
+  }
     
     @AfterMethod
     public void tearDown() {

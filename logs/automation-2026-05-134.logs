@@ -1,0 +1,39 @@
+2026-05-14 10:39:43,210(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search product clicked***************
+2026-05-14 10:39:43,251(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Product title copied***************
+2026-05-14 10:39:43,251(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Search Item***************
+2026-05-14 10:45:04,141(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Account is logged in*****************
+2026-05-14 10:45:08,366(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search clicked***************
+2026-05-14 10:45:08,999(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search Value Entered***************
+2026-05-14 10:45:11,818(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search product clicked***************
+2026-05-14 10:45:11,864(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Product title copied***************
+2026-05-14 10:45:11,876(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Search Item***************
+2026-05-14 10:45:59,804(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Guest User*****************
+2026-05-14 10:46:00,479(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search clicked***************
+2026-05-14 10:46:01,092(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search Value Entered***************
+2026-05-14 10:46:05,094(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search product clicked***************
+2026-05-14 10:46:05,116(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Product title copied***************
+2026-05-14 10:46:05,130(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Search Item***************
+2026-05-14 10:49:34,357(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Guest User*****************
+2026-05-14 10:49:35,042(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search clicked***************
+2026-05-14 10:49:35,690(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search Value Entered***************
+2026-05-14 10:49:38,900(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search product clicked***************
+2026-05-14 10:49:38,923(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Product title copied***************
+2026-05-14 10:49:38,939(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Search Item***************
+2026-05-14 10:56:45,086(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Guest User*****************
+2026-05-14 10:56:45,737(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search clicked***************
+2026-05-14 10:56:46,389(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search Value Entered***************
+2026-05-14 10:56:50,555(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search product clicked***************
+2026-05-14 10:56:50,588(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Product title copied***************
+2026-05-14 10:56:50,588(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Search Item***************
+2026-05-14 10:58:18,083(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Guest User*****************
+2026-05-14 10:58:18,726(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search clicked***************
+2026-05-14 10:58:19,366(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search Value Entered***************
+2026-05-14 10:58:23,130(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search product clicked***************
+2026-05-14 10:58:23,164(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Product title copied***************
+2026-05-14 10:58:23,165(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Search Item***************
+2026-05-14 11:04:02,060(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Guest User*****************
+2026-05-14 11:04:02,757(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search clicked***************
+2026-05-14 11:04:03,404(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search Value Entered***************
+2026-05-14 11:04:07,322(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search product clicked***************
+2026-05-14 11:04:07,358(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Product title copied***************
+2026-05-14 11:04:07,358(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Title ***************

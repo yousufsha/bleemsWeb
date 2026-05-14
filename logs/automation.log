@@ -1,0 +1,18 @@
+2026-05-14 11:04:07,400(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Price not Empty ***************
+2026-05-14 11:04:07,432(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Discribtion not Empty ***************
+2026-05-14 11:06:02,497(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Guest User*****************
+2026-05-14 11:06:03,183(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search clicked***************
+2026-05-14 11:06:03,820(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search Value Entered***************
+2026-05-14 11:06:07,798(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search product clicked***************
+2026-05-14 11:06:07,851(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Product title copied***************
+2026-05-14 11:06:07,851(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Title ***************
+2026-05-14 11:06:07,898(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Price not Empty ***************
+2026-05-14 11:06:07,922(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Discribtion not Empty ***************
+2026-05-14 11:08:57,764(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Account is logged in*****************
+2026-05-14 11:09:01,408(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search clicked***************
+2026-05-14 11:09:02,028(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search Value Entered***************
+2026-05-14 11:09:05,259(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search product clicked***************
+2026-05-14 11:09:05,324(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Product title copied***************
+2026-05-14 11:09:05,324(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Title ***************
+2026-05-14 11:09:05,368(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Price not Empty ***************
+2026-05-14 11:09:05,386(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Discribtion not Empty ***************

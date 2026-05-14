@@ -8,7 +8,7 @@ import pageElement.HomePage;
 
 public class HomePageTest extends BaseClass{
 
-	@Test
+	@Test(groups= {"loginUser","guestUser"})
 	public void verify_HomePageElements() {
 		try {
 		HomePage home = new HomePage(driver);

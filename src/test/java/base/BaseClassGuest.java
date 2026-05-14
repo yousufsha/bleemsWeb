@@ -17,7 +17,7 @@ public class BaseClassGuest {
 	public static WebDriver driver;
     public Logger logger;
 
-    @BeforeMethod
+//    @BeforeMethod
     public void setUp() {
 
     	 WebDriverManager.chromedriver().setup();
@@ -35,8 +35,8 @@ public class BaseClassGuest {
          
          logger = LogManager.getLogger(this.getClass());
          
-         driver.get("https://pci.bleems.com/kw");
- 		
+//         driver.get("https://pci.bleems.com/kw");
+         driver.get("https://www.bleems.com/kw");
         
     }
 

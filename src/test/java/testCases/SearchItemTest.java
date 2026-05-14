@@ -10,7 +10,7 @@ import pageElement.SearchPage;
 
 public class SearchItemTest extends BaseClass {
 	
-	@Test
+	@Test(groups= {"loginUser","guestUser"})
 	public void verify_itemSearch() {
 		try {
 			String searchValue = "Luxury Bouquet 150";
