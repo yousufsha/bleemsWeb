@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\bleem\eclipse-workspace\bleemsWeb\singleTestCasetestng.xml</span>
+                    <span>C:\Users\bleem\eclipse-workspace\bleemsWeb\LoginUsertestng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">11 methods, 2 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.CartItemsTest" class="method navigator-link" hash-for-method="verify_CartItemsTest">verify_CartItemsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.HomePageTest" class="method navigator-link" hash-for-method="verify_HomePageElements">verify_HomePageElements</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +122,47 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.FilterGiftTest" class="method navigator-link" hash-for-method="VerifyFilterGift">VerifyFilterGift</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SearchTest" class="method navigator-link" hash-for-method="Verify_SearchItem">Verify_SearchItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SectionFlowerTest" class="method navigator-link" hash-for-method="verifySectionFlower">verifySectionFlower</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SortTestConfection" class="method navigator-link" hash-for-method="verifySort">verifySort</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.CheckoutTest" class="method navigator-link" hash-for-method="verify_CheckoutPrice">verify_CheckoutPrice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LogoutTest" class="method navigator-link" hash-for-method="verify_Logout">verify_Logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.ProductDetailsTest" class="method navigator-link" hash-for-method="verify_ProductDetails">verify_ProductDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SearchItemTest" class="method navigator-link" hash-for-method="verify_itemSearch">verify_itemSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.LoginTest" class="method navigator-link" hash-for-method="verify_login">verify_login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -118,6 +177,61 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_HomePageElements">
+                  </a> <!-- verify_HomePageElements -->
+                  <span class="method-name">verify_HomePageElements</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at testCases.HomePageTest.verify_HomePageElements(HomePageTest.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testCases.CartItemsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_CartItemsTest">
+                  </a> <!-- verify_CartItemsTest -->
+                  <span class="method-name">verify_CartItemsTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [false] but found [true]
+	at testCases.CartItemsTest.verify_CartItemsTest(CartItemsTest.java:65)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_login">
+                  </a> <!-- verify_login -->
+                  <span class="method-name">verify_login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -133,10 +247,115 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.SortTestConfection</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySort">
+                  </a> <!-- verifySort -->
+                  <span class="method-name">verifySort</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.SectionFlowerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySectionFlower">
+                  </a> <!-- verifySectionFlower -->
+                  <span class="method-name">verifySectionFlower</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.CheckoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_CheckoutPrice">
+                  </a> <!-- verify_CheckoutPrice -->
+                  <span class="method-name">verify_CheckoutPrice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_SearchItem">
+                  </a> <!-- Verify_SearchItem -->
+                  <span class="method-name">Verify_SearchItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.FilterGiftTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyFilterGift">
+                  </a> <!-- VerifyFilterGift -->
+                  <span class="method-name">VerifyFilterGift</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.SearchItemTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_itemSearch">
+                  </a> <!-- verify_itemSearch -->
+                  <span class="method-name">verify_itemSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.LogoutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Logout">
+                  </a> <!-- verify_Logout -->
+                  <span class="method-name">verify_Logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\bleem\eclipse-workspace\bleemsWeb\singleTestCasetestng.xml</span>
+            <span class="header-content">C:\Users\bleem\eclipse-workspace\bleemsWeb\LoginUsertestng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -149,10 +368,20 @@
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;parameter name=&quot;password&quot; value=&quot;Yousuf@123&quot;/&gt;
     &lt;parameter name=&quot;emailId&quot; value=&quot;shameem@bleems.com&quot;/&gt;
-    &lt;parameter name=&quot;env&quot; value=&quot;live&quot;/&gt;
+    &lt;parameter name=&quot;env&quot; value=&quot;test&quot;/&gt;
     &lt;parameter name=&quot;user&quot; value=&quot;loginUser&quot;/&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;testCases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;testCases.LogoutTest&quot;/&gt;
+      &lt;class name=&quot;testCases.SearchTest&quot;/&gt;
+      &lt;class name=&quot;testCases.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;testCases.SearchItemTest&quot;/&gt;
+      &lt;class name=&quot;testCases.SectionFlowerTest&quot;/&gt;
+      &lt;class name=&quot;testCases.SortTestConfection&quot;/&gt;
+      &lt;class name=&quot;testCases.FilterGiftTest&quot;/&gt;
+      &lt;class name=&quot;testCases.CheckoutTest&quot;/&gt;
       &lt;class name=&quot;testCases.ProductDetailsTest&quot;/&gt;
+      &lt;class name=&quot;testCases.CartItemsTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -166,7 +395,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (1 class)</span>
+                <span class="test-name">Test (11 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -180,7 +409,39 @@
               <span class="test-group-name">guestUser</span>
               <br/>
               <div class="method-in-group">
+                <span class="method-in-group-name">VerifyFilterGift</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_SearchItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySectionFlower</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySort</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_CartItemsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_CheckoutPrice</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_HomePageElements</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">verify_ProductDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_itemSearch</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -188,7 +449,47 @@
               <span class="test-group-name">loginUser</span>
               <br/>
               <div class="method-in-group">
+                <span class="method-in-group-name">VerifyFilterGift</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">Verify_SearchItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySectionFlower</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifySort</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_CartItemsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_CheckoutPrice</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_HomePageElements</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_Logout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
                 <span class="method-in-group-name">verify_ProductDetails</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_itemSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">verify_login</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
@@ -208,16 +509,56 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(11);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verify_ProductDetails')
-data.setCell(0, 2, 'testCases.ProductDetailsTest')
-data.setCell(0, 3, 7618);
+data.setCell(0, 1, 'verify_CartItemsTest')
+data.setCell(0, 2, 'testCases.CartItemsTest')
+data.setCell(0, 3, 26818);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verify_CheckoutPrice')
+data.setCell(1, 2, 'testCases.CheckoutTest')
+data.setCell(1, 3, 16854);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Verify_SearchItem')
+data.setCell(2, 2, 'testCases.SearchTest')
+data.setCell(2, 3, 14508);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifySectionFlower')
+data.setCell(3, 2, 'testCases.SectionFlowerTest')
+data.setCell(3, 3, 10182);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verify_Logout')
+data.setCell(4, 2, 'testCases.LogoutTest')
+data.setCell(4, 3, 9132);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifySort')
+data.setCell(5, 2, 'testCases.SortTestConfection')
+data.setCell(5, 3, 8642);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifyFilterGift')
+data.setCell(6, 2, 'testCases.FilterGiftTest')
+data.setCell(6, 3, 7514);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verify_itemSearch')
+data.setCell(7, 2, 'testCases.SearchItemTest')
+data.setCell(7, 3, 7380);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verify_ProductDetails')
+data.setCell(8, 2, 'testCases.ProductDetailsTest')
+data.setCell(8, 3, 7083);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verify_login')
+data.setCell(9, 2, 'testCases.LoginTest')
+data.setCell(9, 3, 5056);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verify_HomePageElements')
+data.setCell(10, 2, 'testCases.HomePageTest')
+data.setCell(10, 3, 3191);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -243,18 +584,172 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testCases.ProductDetailsTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testCases.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(loginUser, live, shameem@bleems.com, Yousuf@123)</span>
+                <span class="method-name">setUp(loginUser, test, shameem@bleems.com, Yousuf@123)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verify_ProductDetails</span>
-                <span class="method-start">14848 ms</span>
+                <span class="method-name">verify_login</span>
+                <span class="method-start">36693 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">22480 ms</span>
+                <span class="method-start">41752 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.LogoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(loginUser, test, shameem@bleems.com, Yousuf@123)</span>
+                <span class="method-start">42060 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_Logout</span>
+                <span class="method-start">56892 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">66025 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(loginUser, test, shameem@bleems.com, Yousuf@123)</span>
+                <span class="method-start">66317 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Verify_SearchItem</span>
+                <span class="method-start">107155 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">121665 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(loginUser, test, shameem@bleems.com, Yousuf@123)</span>
+                <span class="method-start">121924 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_HomePageElements</span>
+                <span class="method-start">139490 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">142686 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SearchItemTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(loginUser, test, shameem@bleems.com, Yousuf@123)</span>
+                <span class="method-start">142897 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_itemSearch</span>
+                <span class="method-start">158194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">165574 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SectionFlowerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(loginUser, test, shameem@bleems.com, Yousuf@123)</span>
+                <span class="method-start">165874 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySectionFlower</span>
+                <span class="method-start">181318 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">191500 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SortTestConfection</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(loginUser, test, shameem@bleems.com, Yousuf@123)</span>
+                <span class="method-start">191781 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySort</span>
+                <span class="method-start">207312 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">215955 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.FilterGiftTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(loginUser, test, shameem@bleems.com, Yousuf@123)</span>
+                <span class="method-start">216254 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyFilterGift</span>
+                <span class="method-start">231742 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">239258 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.CheckoutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(loginUser, test, shameem@bleems.com, Yousuf@123)</span>
+                <span class="method-start">239557 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_CheckoutPrice</span>
+                <span class="method-start">255562 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">272416 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ProductDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(loginUser, test, shameem@bleems.com, Yousuf@123)</span>
+                <span class="method-start">272706 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verify_ProductDetails</span>
+                <span class="method-start">287343 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">294426 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.CartItemsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(loginUser, test, shameem@bleems.com, Yousuf@123)</span>
+                <span class="method-start">294726 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_CartItemsTest</span>
+                <span class="method-start">310597 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">337417 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

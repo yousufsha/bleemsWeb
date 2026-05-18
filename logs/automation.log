@@ -1,18 +1,28 @@
-2026-05-14 11:04:07,400(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Price not Empty ***************
-2026-05-14 11:04:07,432(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Discribtion not Empty ***************
-2026-05-14 11:06:02,497(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Guest User*****************
-2026-05-14 11:06:03,183(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search clicked***************
-2026-05-14 11:06:03,820(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search Value Entered***************
-2026-05-14 11:06:07,798(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search product clicked***************
-2026-05-14 11:06:07,851(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Product title copied***************
-2026-05-14 11:06:07,851(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Title ***************
-2026-05-14 11:06:07,898(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Price not Empty ***************
-2026-05-14 11:06:07,922(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Discribtion not Empty ***************
-2026-05-14 11:08:57,764(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Account is logged in*****************
-2026-05-14 11:09:01,408(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search clicked***************
-2026-05-14 11:09:02,028(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search Value Entered***************
-2026-05-14 11:09:05,259(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search product clicked***************
-2026-05-14 11:09:05,324(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Product title copied***************
-2026-05-14 11:09:05,324(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Title ***************
-2026-05-14 11:09:05,368(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Price not Empty ***************
-2026-05-14 11:09:05,386(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Discribtion not Empty ***************
+2026-05-18 16:05:48,328(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - *************Search product clicked***************
+2026-05-18 16:05:48,420(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - *************Product title copied***************
+2026-05-18 16:05:48,420(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - *************Verified Product Title ***************
+2026-05-18 16:05:48,453(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - *************Verified Product Price not Empty ***************
+2026-05-18 16:05:48,473(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - *************Verified Product Discribtion not Empty ***************
+2026-05-18 16:05:48,580(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - ***********Send button clicked*************
+2026-05-18 16:05:48,798(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - ********* Address Selected ***********
+2026-05-18 16:05:51,788(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - ********* Date Selected ******************
+2026-05-18 16:05:54,133(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - ************* Checkout button clicked **************
+2026-05-18 16:05:57,337(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - ************* Knet Selected **************
+2026-05-18 16:05:57,477(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - ************* Verified Checkout successfull *************
+2026-05-18 16:06:12,404(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Account is logged in*****************
+2026-05-18 16:06:15,964(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search clicked***************
+2026-05-18 16:06:16,622(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search Value Entered***************
+2026-05-18 16:06:19,353(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search product clicked***************
+2026-05-18 16:06:19,419(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Product title copied***************
+2026-05-18 16:06:19,419(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Title ***************
+2026-05-18 16:06:19,468(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Price not Empty ***************
+2026-05-18 16:06:19,487(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Discribtion not Empty ***************
+2026-05-18 16:06:35,658(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - *************Account is logged in*****************
+2026-05-18 16:06:39,449(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - *************Search clicked***************
+2026-05-18 16:06:40,065(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - *************Search Value Entered***************
+2026-05-18 16:06:42,763(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - *************Search product clicked***************
+2026-05-18 16:06:42,821(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - *************Product title copied***************
+2026-05-18 16:06:42,821(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - *************Verified Product Title ***************
+2026-05-18 16:06:42,923(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - ***********Send button clicked*************
+2026-05-18 16:06:43,182(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - ********* Address Selected ***********
+2026-05-18 16:07:00,895(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - ********* Date Selected ******************

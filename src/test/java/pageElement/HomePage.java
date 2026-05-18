@@ -78,7 +78,7 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//a[@id='searchButton1']")
 	WebElement searchBtn;
 	public void clickSearchBtn() {
-		searchBtn.click();
+		wait.until(ExpectedConditions.elementToBeClickable(searchBtn)).click();
 	}
 	
 	@FindBy(xpath="//input[@id='search-box']")

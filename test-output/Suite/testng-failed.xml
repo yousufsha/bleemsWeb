@@ -6,17 +6,24 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="password" value="Yousuf@123"/>
-    <parameter name="emailId" value="GuestAccount"/>
-    <parameter name="env" value="live"/>
-    <parameter name="user" value="guestUser"/>
+    <parameter name="emailId" value="shameem@bleems.com"/>
+    <parameter name="env" value="test"/>
+    <parameter name="user" value="loginUser"/>
     <classes>
-      <class name="testCases.ProductDetailsTest">
+      <class name="testCases.HomePageTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="verify_ProductDetails"/>
+          <include name="verify_HomePageElements"/>
         </methods>
-      </class> <!-- testCases.ProductDetailsTest -->
+      </class> <!-- testCases.HomePageTest -->
+      <class name="testCases.CartItemsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verify_CartItemsTest"/>
+        </methods>
+      </class> <!-- testCases.CartItemsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

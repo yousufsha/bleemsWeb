@@ -34,7 +34,8 @@ public class ProductDetailsTest extends BaseClass{
 		Assert.assertEquals(itemTitle, searchValue);
 		logger.info("*************Verified Product Title ***************");
 		
-		String price = product.getPrice();
+		String price = product.getProductPrice();
+		System.out.println(price);
 		Assert.assertFalse(price.isEmpty());
 		logger.info("*************Verified Product Price not Empty ***************");
 		

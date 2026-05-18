@@ -9,7 +9,7 @@ import pageElement.SectionsTabs;
 
 public class FilterGiftTest extends BaseClass {
 	
-	@Test
+	@Test(groups= {"loginUser","guestUser"})
 	public void VerifyFilterGift() {
 		try {
 		SectionsTabs section = new SectionsTabs(driver);

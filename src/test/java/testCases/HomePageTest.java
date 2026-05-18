@@ -19,6 +19,7 @@ public class HomePageTest extends BaseClass{
 		Assert.assertEquals(endText, "Take Bleems with you");
 		logger.info("*************verified Homepage Loaded**************");
 		}
+		
 		catch(Exception e) {
 		System.out.println(e);
 		Assert.assertFalse(true);
