@@ -81,18 +81,29 @@ public void onTestFailure(ITestResult result) {
     test.log(Status.INFO, result.getThrowable());
 }
 
-public void onFinish (ITestContext testContext) 
+public void onFinish(ITestContext testContext) 
 {
-extent.flush();
-String pathofExtentReport = System.getProperty("user.dir")+"\\reports\\"+repName;
-File extentReport = new File(pathofExtentReport);
+    // Total execution time
+    long startTime = testContext.getStartDate().getTime();
+    long endTime = testContext.getEndDate().getTime();
+    long totalTime = endTime - startTime;
+    long seconds = totalTime / 1000;
+    long minutes = seconds / 60;
+    long remainingSeconds = seconds % 60;
 
-try {
-Desktop.getDesktop().browse (extentReport.toURI());
-} 
-catch (IOException e) {
-e.printStackTrace();
-}
+    extent.setSystemInfo("Total Execution Time",
+            minutes + " Minutes " + remainingSeconds + " Seconds");
 
+    extent.flush();
+
+    String pathofExtentReport = System.getProperty("user.dir")+"\\reports\\"+repName;
+    File extentReport = new File(pathofExtentReport);
+
+    try {
+        Desktop.getDesktop().browse(extentReport.toURI());
+    } 
+    catch (IOException e) {
+        e.printStackTrace();
+    }
 }
 }

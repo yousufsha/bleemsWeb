@@ -1,0 +1,39 @@
+2026-05-19 16:06:24,810(HH:mm:ss.SSS) [main] INFO  testCases.HomePageTest - *************Account button is clicked*****************
+2026-05-19 16:06:24,996(HH:mm:ss.SSS) [main] INFO  testCases.HomePageTest - ************ log in Verified *****************
+2026-05-19 16:06:25,432(HH:mm:ss.SSS) [main] INFO  testCases.HomePageTest - *************verified Homepage Loaded**************
+2026-05-19 16:06:25,683(HH:mm:ss.SSS) [main] INFO  testCases.HomePageTest - *************logout button clicked***************
+2026-05-19 16:06:32,389(HH:mm:ss.SSS) [main] INFO  testCases.HomePageTest - *************Verified logout***************
+2026-05-19 16:06:48,440(HH:mm:ss.SSS) [main] INFO  testCases.SearchItemTest - *************Account is logged in*****************
+2026-05-19 16:06:52,165(HH:mm:ss.SSS) [main] INFO  testCases.SearchItemTest - *************Search clicked***************
+2026-05-19 16:06:52,771(HH:mm:ss.SSS) [main] INFO  testCases.SearchItemTest - *************Search Value Entered***************
+2026-05-19 16:06:55,783(HH:mm:ss.SSS) [main] INFO  testCases.SearchItemTest - *************Search product clicked***************
+2026-05-19 16:06:55,829(HH:mm:ss.SSS) [main] INFO  testCases.SearchItemTest - *************Product title copied***************
+2026-05-19 16:06:55,829(HH:mm:ss.SSS) [main] INFO  testCases.SearchItemTest - *************Verified Search Item***************
+2026-05-19 16:07:16,236(HH:mm:ss.SSS) [main] INFO  testCases.SectionFlowerTest - *************Account is logged in*****************
+2026-05-19 16:07:20,562(HH:mm:ss.SSS) [main] INFO  testCases.SectionFlowerTest - **********Section flower selected************
+2026-05-19 16:07:24,511(HH:mm:ss.SSS) [main] INFO  testCases.SectionFlowerTest - ****************SubType Hand Bouquets Selected********************
+2026-05-19 16:07:26,787(HH:mm:ss.SSS) [main] INFO  testCases.SectionFlowerTest - ********Item Selected**********
+2026-05-19 16:07:26,845(HH:mm:ss.SSS) [main] INFO  testCases.SectionFlowerTest - *************Verified Flower Section***************
+2026-05-19 16:07:44,439(HH:mm:ss.SSS) [main] INFO  testCases.SortTestConfection - *************Account is logged in*****************
+2026-05-19 16:07:51,435(HH:mm:ss.SSS) [main] INFO  testCases.SortTestConfection - ***********Confection clicked************
+2026-05-19 16:07:51,464(HH:mm:ss.SSS) [main] INFO  testCases.SortTestConfection - *********Confection Section Confirmed*********
+2026-05-19 16:07:51,792(HH:mm:ss.SSS) [main] INFO  testCases.SortTestConfection - ***********Price Low to High Sort Selected************
+2026-05-19 16:07:51,827(HH:mm:ss.SSS) [main] INFO  testCases.SortTestConfection - ********** Verified Sort ************
+2026-05-19 16:07:52,975(HH:mm:ss.SSS) [main] INFO  testCases.SortTestConfection - $$$$$$$$$ Verified Sort price $$$$$$$$$
+2026-05-19 16:08:10,865(HH:mm:ss.SSS) [main] INFO  testCases.FilterGiftTest - *************Account is logged in*****************
+2026-05-19 16:08:17,613(HH:mm:ss.SSS) [main] INFO  testCases.FilterGiftTest - ********** Gift Section Clicked ***********
+2026-05-19 16:08:17,719(HH:mm:ss.SSS) [main] INFO  testCases.FilterGiftTest - ************** Discount button clicked ***************
+2026-05-19 16:08:17,908(HH:mm:ss.SSS) [main] INFO  testCases.FilterGiftTest - ************** Discount Selected ***************
+2026-05-19 16:08:18,010(HH:mm:ss.SSS) [main] INFO  testCases.FilterGiftTest - ************** Discount chip verified ***************
+2026-05-19 16:08:18,873(HH:mm:ss.SSS) [main] INFO  testCases.FilterGiftTest - *************** Verified Discount Applied ***************
+2026-05-19 16:08:38,625(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Account is logged in*****************
+2026-05-19 16:08:42,810(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Search clicked***************
+2026-05-19 16:08:43,463(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Search Value Entered***************
+2026-05-19 16:08:46,913(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Search product clicked***************
+2026-05-19 16:08:46,959(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Product title copied***************
+2026-05-19 16:08:46,959(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Verified Product Title ***************
+2026-05-19 16:08:46,992(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Verified Product Price not Empty ***************
+2026-05-19 16:08:47,027(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Verified Product Discribtion not Empty ***************
+2026-05-19 16:08:47,106(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - ***********Send button clicked*************
+2026-05-19 16:08:47,347(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - ********* Address Selected ***********
+2026-05-19 16:08:50,482(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - ********* Date Selected ******************

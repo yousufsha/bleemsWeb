@@ -53,8 +53,8 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//button[@id='dropdownAccount']")
 	WebElement accountBtn;
 	public void clickAccountBtn() {
-		wait.until(ExpectedConditions.elementToBeClickable(accountBtn));
-		accountBtn.click();
+		js.executeScript("window.scrollTo(0, 0);");
+		wait.until(ExpectedConditions.visibilityOf(accountBtn)).click();		
 	}
 	
 	@FindBy(xpath="//a[@class='dropdown-item']//div[contains(text(),'My Account')]")
@@ -77,13 +77,11 @@ public class HomePage extends BasePage {
 	
 	@FindBy(xpath="//a[@id='searchButton1']")
 	WebElement searchBtn;
-	public void clickSearchBtn() {
-		wait.until(ExpectedConditions.elementToBeClickable(searchBtn)).click();
-	}
-	
 	@FindBy(xpath="//input[@id='search-box']")
 	WebElement searchTxtField;
-	public void enterSearchTxt(String search) {
+	
+	public void SearchBtn(String search) {
+		wait.until(ExpectedConditions.elementToBeClickable(searchBtn)).click();
 		wait.until(ExpectedConditions.visibilityOf(searchTxtField)).sendKeys(search);
 	}
 	
@@ -96,8 +94,11 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//h6[contains(text(),'Take Bleems with you')]")
 	WebElement pageEnd;
 	public String getEndText() {
-		 wait.until(ExpectedConditions.visibilityOf(pageEnd));
+		wait.until(ExpectedConditions.visibilityOf(pageEnd));
 		js.executeScript("arguments[0].scrollIntoView(true);",pageEnd);
 		return pageEnd.getText().trim();
 	}
+	
+	
+	
 }

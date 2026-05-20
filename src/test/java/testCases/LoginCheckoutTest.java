@@ -9,19 +9,17 @@ import pageElement.HomePage;
 import pageElement.ProductPage;
 import pageElement.SearchPage;
 
-public class CheckoutTest extends BaseClass{
+public class LoginCheckoutTest extends BaseClass{
 	
 	String searchValue = "Mille Foglie Raspberry";
 	
 //	String searchValue = "Dishdasha Cake";
-	@Test(groups= {"loginUser","guestUser"})
+	@Test(groups= {"loginUser"})
 	public void verify_CheckoutPrice() {
 		try {
 		HomePage home = new HomePage(driver);
 		Thread.sleep(500);
-		home.clickSearchBtn();
-		logger.info("*************Search clicked***************");
-		home.enterSearchTxt(searchValue);
+		home.SearchBtn(searchValue);
 		logger.info("*************Search Value Entered***************");
 		
 		SearchPage search = new SearchPage(driver);

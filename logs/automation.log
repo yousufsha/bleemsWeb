@@ -1,28 +1,22 @@
-2026-05-18 16:05:48,328(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - *************Search product clicked***************
-2026-05-18 16:05:48,420(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - *************Product title copied***************
-2026-05-18 16:05:48,420(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - *************Verified Product Title ***************
-2026-05-18 16:05:48,453(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - *************Verified Product Price not Empty ***************
-2026-05-18 16:05:48,473(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - *************Verified Product Discribtion not Empty ***************
-2026-05-18 16:05:48,580(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - ***********Send button clicked*************
-2026-05-18 16:05:48,798(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - ********* Address Selected ***********
-2026-05-18 16:05:51,788(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - ********* Date Selected ******************
-2026-05-18 16:05:54,133(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - ************* Checkout button clicked **************
-2026-05-18 16:05:57,337(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - ************* Knet Selected **************
-2026-05-18 16:05:57,477(HH:mm:ss.SSS) [main] INFO  testCases.CheckoutTest - ************* Verified Checkout successfull *************
-2026-05-18 16:06:12,404(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Account is logged in*****************
-2026-05-18 16:06:15,964(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search clicked***************
-2026-05-18 16:06:16,622(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search Value Entered***************
-2026-05-18 16:06:19,353(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search product clicked***************
-2026-05-18 16:06:19,419(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Product title copied***************
-2026-05-18 16:06:19,419(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Title ***************
-2026-05-18 16:06:19,468(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Price not Empty ***************
-2026-05-18 16:06:19,487(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Discribtion not Empty ***************
-2026-05-18 16:06:35,658(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - *************Account is logged in*****************
-2026-05-18 16:06:39,449(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - *************Search clicked***************
-2026-05-18 16:06:40,065(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - *************Search Value Entered***************
-2026-05-18 16:06:42,763(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - *************Search product clicked***************
-2026-05-18 16:06:42,821(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - *************Product title copied***************
-2026-05-18 16:06:42,821(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - *************Verified Product Title ***************
-2026-05-18 16:06:42,923(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - ***********Send button clicked*************
-2026-05-18 16:06:43,182(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - ********* Address Selected ***********
-2026-05-18 16:07:00,895(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - ********* Date Selected ******************
+2026-05-20 12:32:50,006(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Search value entered : Wood & Acrylic Decor Set
+2026-05-20 12:32:53,694(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Search product clicked
+2026-05-20 12:32:53,754(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Product title : Wood & Acrylic Decor Set
+2026-05-20 12:32:53,755(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Verified Product Title
+2026-05-20 12:32:54,094(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Address Selected
+2026-05-20 12:32:57,173(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Date Selected
+2026-05-20 12:32:58,108(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Item added to cart successfully
+2026-05-20 12:33:02,211(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Cart Item Count : 5
+2026-05-20 12:33:02,212(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Cart Item Count : 3
+2026-05-20 12:33:40,491(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Account is logged in*****************
+2026-05-20 12:33:54,445(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Search Value Entered***************
+2026-05-20 12:34:02,276(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Search product clicked***************
+2026-05-20 12:34:02,318(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Product title copied***************
+2026-05-20 12:34:02,318(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Verified Product Title ***************
+2026-05-20 12:34:02,367(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Verified Product Price not Empty ***************
+2026-05-20 12:34:02,385(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Verified Product Discribtion not Empty ***************
+2026-05-20 12:34:02,508(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - ***********Send button clicked*************
+2026-05-20 12:34:02,722(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - ********* Address Selected ***********
+2026-05-20 12:34:07,482(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - ********* Date Selected ******************
+2026-05-20 12:34:09,478(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - ************* Checkout button clicked **************
+2026-05-20 12:34:13,055(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - ************* Knet Selected **************
+2026-05-20 12:34:13,168(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - ************* Verified Checkout successfull *************

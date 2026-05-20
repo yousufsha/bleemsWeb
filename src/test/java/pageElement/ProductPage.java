@@ -81,6 +81,23 @@ public class ProductPage extends BasePage {
 	    address.click();
 	}
 	
+	@FindBy(xpath="//select[@id='ddlFlavour']")
+	WebElement clickFlavour;
+	
+	@FindBy(xpath="//option[@value='1']")
+	WebElement selectFlavour;
+	
+	public void selectFlavour() {
+	    try {
+	        if (clickFlavour.isDisplayed()) {
+	            wait.until(ExpectedConditions.elementToBeClickable(clickFlavour)).click();
+	            wait.until(ExpectedConditions.elementToBeClickable(selectFlavour)).click();
+	        }
+	    } catch (Exception e) {
+	        System.out.println("Flavour option not available");
+	    }
+	}
+	
 	
 	@FindBy(xpath="//input[@id='txtDeliveryDate']")
 	WebElement clickDate;
@@ -138,6 +155,23 @@ public class ProductPage extends BasePage {
 		        return false;
 		    }
 	}
+	
+	@FindBy(xpath="//button[@id='inc']")
+	WebElement quantityIncBtn;
+	public void setQuantity(int quantity) {
+		 if (quantity < 1) {
+		        throw new IllegalArgumentException("Quantity must be at least 1");
+		    }
+		for(int i=1;i<quantity;i++) {
+			wait.until(ExpectedConditions.elementToBeClickable(quantityIncBtn)).click();
+		}
+	}
+	
+	
+	
+	
+	
+	
 	
 	
 	

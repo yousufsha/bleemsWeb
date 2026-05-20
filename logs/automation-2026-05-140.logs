@@ -1,0 +1,43 @@
+2026-05-20 12:13:30,126(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Verified Product Discribtion not Empty ***************
+2026-05-20 12:13:30,217(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - ***********Send button clicked*************
+2026-05-20 12:13:30,422(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - ********* Address Selected ***********
+2026-05-20 12:13:50,822(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Account is logged in*****************
+2026-05-20 12:13:55,499(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search Value Entered***************
+2026-05-20 12:13:58,307(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Search product clicked***************
+2026-05-20 12:13:58,356(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Product title copied***************
+2026-05-20 12:13:58,356(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Title ***************
+2026-05-20 12:13:58,396(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Price not Empty ***************
+2026-05-20 12:13:58,408(HH:mm:ss.SSS) [main] INFO  testCases.ProductDetailsTest - *************Verified Product Discribtion not Empty ***************
+2026-05-20 12:14:15,704(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - *************Account is logged in*****************
+2026-05-20 12:14:20,360(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - ************* Search item ***************
+2026-05-20 12:14:23,029(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - *************Search product clicked***************
+2026-05-20 12:14:23,073(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - *************Product title copied***************
+2026-05-20 12:14:23,073(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - *************Verified Product Title ***************
+2026-05-20 12:14:23,149(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - ***********Send button clicked*************
+2026-05-20 12:14:23,354(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - ********* Address Selected ***********
+2026-05-20 12:14:26,327(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - ********* Date Selected ******************
+2026-05-20 12:14:29,118(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - Cart Badge Count : 1
+2026-05-20 12:14:29,118(HH:mm:ss.SSS) [main] INFO  testCases.CartItemsTest - Cart Item Count : 1
+2026-05-20 12:14:45,637(HH:mm:ss.SSS) [main] INFO  testCases.CartQuantityItems - *************Account is logged in*****************
+2026-05-20 12:14:50,314(HH:mm:ss.SSS) [main] INFO  testCases.CartQuantityItems - Search value entered : Wood & Acrylic Decor Set
+2026-05-20 12:14:52,906(HH:mm:ss.SSS) [main] INFO  testCases.CartQuantityItems - Search product clicked
+2026-05-20 12:14:52,964(HH:mm:ss.SSS) [main] INFO  testCases.CartQuantityItems - Product title : Wood & Acrylic Decor Set
+2026-05-20 12:14:52,964(HH:mm:ss.SSS) [main] INFO  testCases.CartQuantityItems - Verified Product Title
+2026-05-20 12:14:53,299(HH:mm:ss.SSS) [main] INFO  testCases.CartQuantityItems - Address Selected
+2026-05-20 12:14:55,876(HH:mm:ss.SSS) [main] INFO  testCases.CartQuantityItems - Date Selected
+2026-05-20 12:14:56,488(HH:mm:ss.SSS) [main] INFO  testCases.CartQuantityItems - Item added to cart successfully
+2026-05-20 12:14:57,978(HH:mm:ss.SSS) [main] INFO  testCases.CartQuantityItems - Cart Badge Count : 3
+2026-05-20 12:14:57,978(HH:mm:ss.SSS) [main] INFO  testCases.CartQuantityItems - Cart Item Count : 3
+2026-05-20 12:15:15,414(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - *************Account is logged in*****************
+2026-05-20 12:15:20,061(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Search value entered : Wood & Acrylic Decor Set
+2026-05-20 12:15:23,000(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Search product clicked
+2026-05-20 12:15:23,053(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Product title : Wood & Acrylic Decor Set
+2026-05-20 12:15:23,053(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Verified Product Title
+2026-05-20 12:15:23,376(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Address Selected
+2026-05-20 12:15:26,596(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Date Selected
+2026-05-20 12:15:27,169(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Item added to cart successfully
+2026-05-20 12:15:28,802(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Cart Item Count : 3
+2026-05-20 12:15:32,080(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Cart Item Count : 1
+2026-05-20 12:15:32,081(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Cart Item Count : 3
+2026-05-20 12:15:32,081(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Cart Item Count : 1
+2026-05-20 12:32:46,108(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - *************Account is logged in*****************

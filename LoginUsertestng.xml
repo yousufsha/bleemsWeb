@@ -19,19 +19,19 @@
 
     <classes>
    	  <class name="testCases.LoginTest"/>
-      <class name="testCases.LogoutTest"/>
+      <class name="testCases.LogoutTest"/> 
       <class name="testCases.SearchTest"/>
-      <class name="testCases.HomePageTest"/>
+      <class name="testCases.LogInOutHomePageTest"/>
       <class name="testCases.SearchItemTest"/>
       <class name="testCases.SectionFlowerTest"/> 
       <class name="testCases.SortTestConfection"/> 
       <class name="testCases.FilterGiftTest"/>
-      <class name="testCases.CheckoutTest"/> 
+      <class name="testCases.LoginCheckoutTest"/> 
       <class name="testCases.ProductDetailsTest"/>
       <class name="testCases.CartItemsTest"/> 
+      <class name="testCases.CartQuantityItems"/>
+      <class name="testCases.RemoveItemCartTest"/>
       
-      
-    <!--  <class name="testCases.MutipleCartItems"/> -->
          
     </classes>
   </test> <!-- Test -->

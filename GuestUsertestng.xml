@@ -19,14 +19,15 @@
 
     <classes>
    	<!--  <class name="testCases.LoginTest"/>
-      <class name="testCases.LogoutTest"/> -->
-      <class name="testCases.SearchTest"/>
-      <class name="testCases.HomePageTest"/>
+      <class name="testCases.LogoutTest"/> 
+      <class name="testCases.LogInOutHomePageTest"/>
+      <class name="testCases.LoginCheckoutTest"/> -->
+      
+     <class name="testCases.SearchTest"/>
       <class name="testCases.SearchItemTest"/>
       <class name="testCases.SectionFlowerTest"/> 
       <class name="testCases.SortTestConfection"/> 
       <class name="testCases.FilterGiftTest"/>
-      <class name="testCases.CheckoutTest"/> 
       <class name="testCases.ProductDetailsTest"/>
       <class name="testCases.CartItemsTest"/> 
          

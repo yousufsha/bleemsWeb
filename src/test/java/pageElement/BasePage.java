@@ -23,7 +23,6 @@ public class BasePage {
 	PageFactory.initElements (driver, this);
 	}
 
-
 	@FindBy(xpath="")
 	WebElement X;
 	public void X () {

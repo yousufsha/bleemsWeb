@@ -17,9 +17,7 @@ public class ProductDetailsTest extends BaseClass{
 			String searchValue = "Pink And Red Twin";
 		HomePage home = new HomePage(driver);
 		Thread.sleep(500);
-		home.clickSearchBtn();
-		logger.info("*************Search clicked***************");
-		home.enterSearchTxt(searchValue);
+		home.SearchBtn(searchValue);
 		logger.info("*************Search Value Entered***************");
 		
 		SearchPage search = new SearchPage(driver);

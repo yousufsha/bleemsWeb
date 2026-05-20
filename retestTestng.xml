@@ -14,8 +14,9 @@
  	<parameter name="emailId" value="shameem@bleems.com"/>
 	<parameter name="password" value="Yousuf@123"/> 
     <classes>
-	  <class name="testCases.MutipleCartItems"/> 
-	  <class name="testCases.CartItemsTest"/> 
+	  <class name="testCases.RemoveItemCartTest"/>
+	  <class name="testCases.LoginCheckoutTest"/> 
+	  
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -16,13 +16,8 @@ public class SearchTest extends BaseClass {
 			
 			HomePage home = new HomePage(driver);
 			
-//			home.clickCartBtn();
-//			logger.info("***********Cart clicked***********");
-			
 			Thread.sleep(500);
-			home.clickSearchBtn();
-			logger.info("***********Search clicked***********");
-			home.enterSearchTxt("Love");
+			home.SearchBtn("Love");
 			logger.info("***********Search key inserted***********");
 
 			SearchPage search = new SearchPage(driver);

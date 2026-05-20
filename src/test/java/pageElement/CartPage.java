@@ -2,6 +2,7 @@ package pageElement;
 
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -60,15 +61,38 @@ public class CartPage extends BasePage{
 	
 	@FindBy(xpath="//span[@class='cart-count']")
 	WebElement cartBadgeCount;
-	public int getCartBadgeCount() {
-		String count = cartBadgeCount.getText();
-		 return Integer.parseInt(count);
+	public String getCartBadgeCount() {
+		String count = wait.until(ExpectedConditions.visibilityOf(cartBadgeCount)).getText();
+		 return count;
 	}
 	
 	@FindBy(xpath = "//div[@class='dv-cart-item']")
 	List<WebElement> cartItemCount;
-	public int getCartItemCount() {
-	   return cartItemCount.size();
+	public String getCartItemCount() {
+		return String.valueOf(cartItemCount.size());
 	}
+	
+	@FindBy(xpath = "//button[@data-btn-name='remove cart item']")
+	List<WebElement> removeButtons;
+
+	public void removeItems(int count) {
+	    int totalItems = removeButtons.size();
+	    if (count > totalItems) {
+	        count = totalItems;
+	    }
+	    for (int i = 0; i < count; i++) {
+	        wait.until(ExpectedConditions.elementToBeClickable(removeButtons.get(0))).click();
+	        // Optional wait after removing item
+	        wait.until(ExpectedConditions.numberOfElementsToBeLessThan(
+	                By.xpath("//button[@data-btn-name='remove cart item']"),totalItems - i));
+	    }
+	}
+	
+	
+	
+	
+	
+	
+	
 	
 }

@@ -10,20 +10,13 @@
     <parameter name="env" value="test"/>
     <parameter name="user" value="loginUser"/>
     <classes>
-      <class name="testCases.HomePageTest">
+      <class name="testCases.LoginCheckoutTest">
         <methods>
           <include name="tearDown"/>
+          <include name="verify_CheckoutPrice"/>
           <include name="setUp"/>
-          <include name="verify_HomePageElements"/>
         </methods>
-      </class> <!-- testCases.HomePageTest -->
-      <class name="testCases.CartItemsTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="verify_CartItemsTest"/>
-        </methods>
-      </class> <!-- testCases.CartItemsTest -->
+      </class> <!-- testCases.LoginCheckoutTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
