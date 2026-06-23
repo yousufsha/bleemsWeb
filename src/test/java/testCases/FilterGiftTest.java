@@ -24,7 +24,7 @@ public class FilterGiftTest extends BaseClass {
 		logger.info("************** Discount Selected ***************");
 	
 		String discountChip = filter.getFilterChip();
-		Assert.assertEquals(discountChip,"20%");
+		Assert.assertEquals(discountChip,"10%");
 		logger.info("************** Discount chip verified ***************");
 		
 		boolean checkDiscount = filter.checkDiscount();

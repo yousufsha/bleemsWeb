@@ -12,9 +12,9 @@ import pageElement.SearchPage;
 public class RemoveItemCartTest extends BaseClass {
 
     @Test(groups = {"loginUser", "guestUser"})
-    public void verify_CartQuantityItemsTest() {
+    public void verify_RemoveItemCartTest() {
 
-        String item = "Wood & Acrylic Decor Set";
+        String item = "Marble & Wooden Set";
         
         HomePage home = new HomePage(driver);
         SearchPage search = new SearchPage(driver);
@@ -25,6 +25,7 @@ public class RemoveItemCartTest extends BaseClass {
 
         	Thread.sleep(500);
         	home.SearchBtn(item);
+        	home.selectProductSearchBtn();
         	logger.info("Search value entered : " + item);
 
         	search.clickSearchItem();

@@ -1,0 +1,33 @@
+2026-06-08 10:59:14,042(HH:mm:ss.SSS) [main] INFO  testCases.CartQuantityItems - *************Account is logged in*****************
+2026-06-08 10:59:20,110(HH:mm:ss.SSS) [main] INFO  testCases.CartQuantityItems - Search value entered : Wood & Acrylic Decor Set
+2026-06-08 10:59:35,174(HH:mm:ss.SSS) [main] ERROR testCases.CartQuantityItems - *********** Code Failed ***********
+2026-06-08 10:59:35,174(HH:mm:ss.SSS) [main] ERROR testCases.CartQuantityItems - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='list-group-item']"}
+  (Session info: chrome=149.0.7827.53)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ef335b53646f5af930df2523c796af8, findElement {using=xpath, value=//a[@class='list-group-item']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.53, chrome: {chromedriverVersion: 149.0.7827.54 (42ce21f112d0..., userDataDir: C:\Users\bleem\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56782}, goog:processID: 15160, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56782/devtoo..., se:cdpVersion: 149.0.7827.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ef335b53646f5af930df2523c796af8
+2026-06-08 10:59:53,234(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - *************Account is logged in*****************
+2026-06-08 10:59:57,658(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Search value entered : Wood & Acrylic Decor Set
+2026-06-08 11:00:12,708(HH:mm:ss.SSS) [main] ERROR testCases.RemoveItemCartTest - *********** Code Failed ***********
+2026-06-08 11:00:12,708(HH:mm:ss.SSS) [main] ERROR testCases.RemoveItemCartTest - no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='list-group-item']"}
+  (Session info: chrome=149.0.7827.53)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f21b2cafc252e661c0fdeea9298a9e63, findElement {using=xpath, value=//a[@class='list-group-item']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 149.0.7827.53, chrome: {chromedriverVersion: 149.0.7827.54 (42ce21f112d0..., userDataDir: C:\Users\bleem\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53712}, goog:processID: 13108, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53712/devtoo..., se:cdpVersion: 149.0.7827.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f21b2cafc252e661c0fdeea9298a9e63
+2026-06-08 11:00:27,259(HH:mm:ss.SSS) [main] INFO  testCases.TopSectionItemsTest - *************Account is logged in*****************
+2026-06-08 11:04:11,398(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Account is logged in*****************
+2026-06-08 11:04:17,862(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Search Value Entered***************
+2026-06-08 11:04:21,863(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Search product clicked***************
+2026-06-08 11:04:22,085(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Product title copied***************
+2026-06-08 11:04:22,086(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Verified Product Title ***************
+2026-06-08 11:04:22,196(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Verified Product Price not Empty ***************
+2026-06-08 11:04:22,249(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Verified Product Discribtion not Empty ***************
+2026-06-08 11:04:22,530(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - ***********Send button clicked*************

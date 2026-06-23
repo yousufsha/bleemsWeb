@@ -2,8 +2,10 @@ package testCases;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import base.BaseClass;
 import pageElement.HomePage;
+import utilityFiles.CookieManager;
 
 public class LoginTest extends BaseClass {
 	
@@ -21,6 +23,9 @@ public class LoginTest extends BaseClass {
 		boolean checkVisiblityMyAccount = home.checkVisiblityMyAccount();
 		Assert.assertTrue(checkVisiblityMyAccount);
 		logger.info("*************logged in Verified*****************");
+		
+		CookieManager.saveCookies(driver);
+
 		}
 		
 		catch(Exception e) {

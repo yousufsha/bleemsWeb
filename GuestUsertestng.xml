@@ -8,28 +8,35 @@
 
  <test thread-count="5" name="Test">
   
-	<!--  <parameter name="user" value="loginUser"/>  -->
-	<parameter name="user" value="guestUser"/>
+	 <parameter name="user" value="loginUser"/>
+	<!-- <parameter name="user" value="guestUser"/> -->
+	
+	<parameter name ="language" value="EN"/> <!--(AR/EN) -->
 
- 			<parameter name="env" value="test"/> 
-	<!--	<parameter name="env" value="live"/> -->
+ 		<!--<parameter name="env" value="test"/>
+			<parameter name="env" value="staging"/>  -->
+			<parameter name="env" value="live"/>
 	
 	 <parameter name="emailId" value="shameem@bleems.com"/>
 	 <parameter name="password" value="Yousuf@123"/>
 
     <classes>
-   	<!--  <class name="testCases.LoginTest"/>
-      <class name="testCases.LogoutTest"/> 
-      <class name="testCases.LogInOutHomePageTest"/>
-      <class name="testCases.LoginCheckoutTest"/> -->
-      
-     <class name="testCases.SearchTest"/>
-      <class name="testCases.SearchItemTest"/>
-      <class name="testCases.SectionFlowerTest"/> 
-      <class name="testCases.SortTestConfection"/> 
-      <class name="testCases.FilterGiftTest"/>
-      <class name="testCases.ProductDetailsTest"/>
-      <class name="testCases.CartItemsTest"/> 
+   		<class name="testCases.LoginTest"/>
+    	<class name="testCases.LogoutTest"/> 
+      	<class name="testCases.LogInOutHomePageTest"/>
+     	<class name="testCases.LoginCheckoutTest"/>
+    
+      	<class name="testCases.SearchTest"/>
+     	<class name="testCases.SearchItemTest"/>
+      	<class name="testCases.SectionFlowerTest"/> 
+      	<class name="testCases.SortTestConfection"/> 
+      	<class name="testCases.FilterGiftTest"/>
+      	<class name="testCases.ProductDetailsTest"/>
+      	<class name="testCases.CartItemsTest"/> 
+      	<class name="testCases.CartQuantityItems"/>
+      	<class name="testCases.RemoveItemCartTest"/> 
+      	<class name="testCases.TopSectionItemsTest"/>
+      	<class name="testCases.ShopThrowShops"/>
          
     </classes>
   </test> <!-- Test -->

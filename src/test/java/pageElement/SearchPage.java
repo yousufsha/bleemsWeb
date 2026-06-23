@@ -10,14 +10,13 @@ public class SearchPage extends BasePage{
 		super(driver);
 	}
 	
-	
 	@FindBy(xpath="//a[@class='list-group-item'][3]")
 	WebElement item;
 	public void selectItem() {
 		item.click();
 	}
 	
-	@FindBy(xpath="//a[@class='list-group-item']")
+	@FindBy(xpath="//div[@id='searchBar']//a[1]")
 	WebElement searchItem;
 	public void clickSearchItem() {
 		searchItem.click();

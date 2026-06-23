@@ -12,6 +12,12 @@ public class HomePage extends BasePage {
 	super(driver);
 	}
 	
+	@FindBy(xpath="//a[@class='btn btn-lang']")
+	WebElement language;
+	public void changeLanguage() {
+		language.click();
+	}
+	
 	@FindBy(xpath="//button[@class='btn btn-login dropdown-account track-btn']")
 	WebElement loginbtn;
 	public void clickLoginbtn() {
@@ -75,14 +81,17 @@ public class HomePage extends BasePage {
 		    }
 	}
 	
-	@FindBy(xpath="//a[@id='searchButton1']")
-	WebElement searchBtn;
-	@FindBy(xpath="//input[@id='search-box']")
-	WebElement searchTxtField;
 	
+	@FindBy(xpath="//input[@id='searchInput']")
+	WebElement searchTxtField;
 	public void SearchBtn(String search) {
-		wait.until(ExpectedConditions.elementToBeClickable(searchBtn)).click();
 		wait.until(ExpectedConditions.visibilityOf(searchTxtField)).sendKeys(search);
+	}
+	
+	@FindBy(xpath="//button[@role='tab'][normalize-space()='Products']")
+	WebElement productSearch;
+	public void selectProductSearchBtn() {
+		wait.until(ExpectedConditions.visibilityOf(productSearch)).click();
 	}
 	
 	@FindBy(xpath="//a[@href='https://pci.bleems.com/kw/cart']")

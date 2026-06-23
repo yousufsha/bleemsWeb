@@ -14,7 +14,7 @@ public class CartQuantityItems extends BaseClass {
     @Test(groups = {"loginUser", "guestUser"})
     public void verify_CartQuantityItemsTest() {
 
-        String item = "Wood & Acrylic Decor Set";
+        String item = "Marble & Wooden Set";
         
         HomePage home = new HomePage(driver);
         SearchPage search = new SearchPage(driver);
@@ -24,6 +24,7 @@ public class CartQuantityItems extends BaseClass {
         try {
         	Thread.sleep(500);
         	home.SearchBtn(item);
+        	home.selectProductSearchBtn();
         	logger.info("Search value entered : " + item);
 
         	search.clickSearchItem();

@@ -7,7 +7,7 @@ import base.BaseClass;
 
 public class ScrollDownUntil extends BaseClass {
 	
-	public void scrollDownUntilElementVisible(WebElement element) {
+	public static void scrollDownUntilElementVisible(WebElement element) {
 
 	    JavascriptExecutor js = (JavascriptExecutor) driver;
 

@@ -31,6 +31,7 @@
       <class name="testCases.CartItemsTest"/> 
       <class name="testCases.CartQuantityItems"/>
       <class name="testCases.RemoveItemCartTest"/>
+      <class name="testCases.TopSectionItemsTest"/>
       
          
     </classes>

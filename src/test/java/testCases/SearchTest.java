@@ -18,10 +18,11 @@ public class SearchTest extends BaseClass {
 			
 			Thread.sleep(500);
 			home.SearchBtn("Love");
+			home.selectProductSearchBtn();
 			logger.info("***********Search key inserted***********");
 
 			SearchPage search = new SearchPage(driver);
-			search.selectItem();
+			search.clickSearchItem();;
 			logger.info("****************Item Clicked*****************");
 			
 			

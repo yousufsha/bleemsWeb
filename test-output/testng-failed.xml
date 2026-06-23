@@ -7,16 +7,15 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="password" value="Yousuf@123"/>
     <parameter name="emailId" value="shameem@bleems.com"/>
-    <parameter name="env" value="test"/>
+    <parameter name="env" value="live"/>
     <parameter name="user" value="loginUser"/>
     <classes>
-      <class name="testCases.LoginCheckoutTest">
+      <class name="testCases.ShopThrowShops">
         <methods>
-          <include name="tearDown"/>
-          <include name="verify_CheckoutPrice"/>
           <include name="setUp"/>
+          <include name="Verify_shoppingViaShop"/>
         </methods>
-      </class> <!-- testCases.LoginCheckoutTest -->
+      </class> <!-- testCases.ShopThrowShops -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

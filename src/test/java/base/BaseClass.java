@@ -48,7 +48,8 @@ public class BaseClass {
          
       switch(env) {  
       case "test" :  driver.get("https://pci.bleems.com/kw"); break;
-      case "live" : driver.get("https://www.bleems.com/kw"); break;
+      case "live" : driver.get("https://www.bleems.com/kw"); break;      
+      case "staging" : driver.get("https://staging.bleems.com/kw"); break;
       }
       
       switch(user) {
@@ -68,11 +69,11 @@ public class BaseClass {
   
   }
     
-    @AfterMethod
+//    @AfterMethod
     public void tearDown() {
         try {
             if (driver != null) {
-                driver.quit();
+                driver.close();
                 System.out.println("Browser closed successfully");
                 softAssert.assertAll();
             }

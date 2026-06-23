@@ -20,6 +20,7 @@ public class CartItemsTest extends BaseClass{
 			Thread.sleep(500);
 			
 			home.SearchBtn(item);
+			home.selectProductSearchBtn();
 			logger.info("************* Search item ***************");
 			
 			

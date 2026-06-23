@@ -18,6 +18,7 @@ public class ProductDetailsTest extends BaseClass{
 		HomePage home = new HomePage(driver);
 		Thread.sleep(500);
 		home.SearchBtn(searchValue);
+		home.selectProductSearchBtn();
 		logger.info("*************Search Value Entered***************");
 		
 		SearchPage search = new SearchPage(driver);

@@ -38,6 +38,9 @@ public class SectionsTabs extends BasePage {
 		wait.until(ExpectedConditions.elementToBeClickable(flowersSection));
 		action.moveToElement(flowersSection).perform();
 	}
+	public void clickFlowerSection() {
+		wait.until(ExpectedConditions.elementToBeClickable(flowersSection)).click();
+	}
 	
 	
 	@FindBy(xpath="//ul[@class='custom-navbar ']/li/a[contains(text(),'Confections')]")
@@ -66,6 +69,9 @@ public class SectionsTabs extends BasePage {
 	
 	@FindBy(xpath="//ul[@class='custom-navbar ']/li/a[contains(text(),'Shops')]")
 	WebElement shopsSection;
+	public void clickShopSection() {
+		shopsSection.click();
+	}
 	
 	public boolean flowersSectionVisibility() {
 		WebElement flowerVisible = wait.until(ExpectedConditions.visibilityOf(flowersSection));
@@ -110,9 +116,10 @@ public class SectionsTabs extends BasePage {
 	}
 	
 	@FindBy(xpath="//div[@class='text-center mb-3 ']")
-	WebElement sectionTitle;
+	WebElement getSectionTitle;
 	public String getSectionTitle() {
-		return sectionTitle.getText().trim();
+		wait.until(ExpectedConditions.visibilityOfAllElements(getSectionTitle));
+		return getSectionTitle.getText().trim();
 	}
 	
 	
@@ -124,4 +131,12 @@ public class SectionsTabs extends BasePage {
 	        softAssert.assertFalse(title.isEmpty(),"Custom row title is empty");
 	    }
 	}
+	
+	@FindBy(xpath="//h2[normalize-space()='Explore Brands on Bleems']")
+	WebElement exploreShop;
+	public boolean exploreShopText() {
+		WebElement shopExplorePage = wait.until(ExpectedConditions.visibilityOf(exploreShop));
+		return shopExplorePage.isDisplayed();
+	}
+	
 }

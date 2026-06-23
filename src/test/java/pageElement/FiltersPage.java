@@ -40,11 +40,21 @@ public class FiltersPage extends BasePage {
 		wait.until(ExpectedConditions.elementToBeClickable(sortLtoH)).click();
 	}
 	
+	@FindBy(xpath="//a[contains(text(),'Price High to Low')]")
+	WebElement sortHtoL;
+	public void selectSortHtoL() {
+		wait.until(ExpectedConditions.elementToBeClickable(sortHtoL)).click();
+	}
+	
 	
 	@FindBy(xpath="//div[@id='itemBlock']//div[contains(text(),'KWD')]")
     List<WebElement> priceElements;
     public boolean verifyPricesLowToHigh() {
         return PriceUtils.isSortedLowToHigh(priceElements);
+    }
+    
+    public boolean verifyPricesHighToLow() {
+        return PriceUtils.isSortedHighToLow(priceElements);
     }
     
 //	@FindBy(xpath="//button[@data-bs-target='#filter-discount']")
@@ -78,7 +88,7 @@ public class FiltersPage extends BasePage {
 //		wait.until(ExpectedConditions.elementToBeClickable(priceRangeBtn)).click();
 //	}
 	
-	@FindBy(xpath="//div[@id='filter-discount']//input[@id='dis-20']")
+	@FindBy(xpath="//div[@id='filter-discount']//input[@id='dis-10']")
 	WebElement discountPercentage;
 	public void selectDiscount() {
 		discountPercentage.click();
@@ -96,7 +106,7 @@ public class FiltersPage extends BasePage {
 	public boolean checkDiscount() {
 		return DiscountFilterUtils.verifyDiscountFilter(
 				checkDiscount,
-	            20
+	            10
 	    );
 	}
 	
