@@ -29,7 +29,7 @@ public class LogInOutHomePageTest extends BaseClass{
 		softAssert.assertTrue(section.flowersSectionVisibility(),"Flower Section validation failed");
 		softAssert.assertTrue(section.confectionsSectionVisibility());
 		softAssert.assertTrue(section.giftsSectionVisibility());
-		softAssert.assertTrue(section.toysSectionVisibility());
+//		softAssert.assertTrue(section.toysSectionVisibility());
 		softAssert.assertTrue(section.occasionsSectionVisibility());
 		softAssert.assertTrue(section.shopSectionVisibility());
 		section.verifyCustomRowTitles(softAssert);

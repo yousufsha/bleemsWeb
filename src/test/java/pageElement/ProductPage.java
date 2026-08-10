@@ -102,7 +102,7 @@ public class ProductPage extends BasePage {
 	@FindBy(xpath="//input[@id='txtDeliveryDate']")
 	WebElement clickDate;
 	public void clickDate() {
-		clickDate.click();
+		wait.until(ExpectedConditions.elementToBeClickable(clickDate)).click();
 	}
 	
 	@FindBy(xpath="//div[@class='air-datepicker-nav--action']")

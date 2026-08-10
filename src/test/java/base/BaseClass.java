@@ -69,7 +69,7 @@ public class BaseClass {
   
   }
     
-//    @AfterMethod
+    @AfterMethod
     public void tearDown() {
         try {
             if (driver != null) {

@@ -2,6 +2,7 @@ package pageElement;
 
 import java.util.List;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -41,7 +42,8 @@ public class ShopsPage extends BasePage {
 	WebElement floriaShop;
 	public void clickFloriaShop() {
 		ScrollDownUntil.scrollDownUntilElementVisible(floriaShop);
-		floriaShop.click();
+		wait.until(ExpectedConditions.elementToBeClickable(floriaShop));
+		((JavascriptExecutor) driver).executeScript("arguments[0].click();", floriaShop);
 	}
 	
 	@FindBy(xpath="//h1[@class='title-banner']")
@@ -50,7 +52,11 @@ public class ShopsPage extends BasePage {
 		return wait.until(ExpectedConditions.visibilityOf(ShopTitle)).getText().trim();
 	}
 	
-	
+	@FindBy(xpath="//div[@id='itemGroup']/div[1]")
+	WebElement floriaItem1;
+	public void selectFloriaItem1() {
+		wait.until(ExpectedConditions.elementToBeClickable(floriaItem1)).click();
+	}
 	
 	
 	

@@ -6,16 +6,25 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <parameter name="password" value="Yousuf@123"/>
+    <parameter name="language" value="EN"/>
     <parameter name="emailId" value="shameem@bleems.com"/>
     <parameter name="env" value="live"/>
     <parameter name="user" value="loginUser"/>
     <classes>
-      <class name="testCases.ShopThrowShops">
+      <class name="testCases.SearchItemTest">
         <methods>
+          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="Verify_shoppingViaShop"/>
+          <include name="verify_itemSearch"/>
         </methods>
-      </class> <!-- testCases.ShopThrowShops -->
+      </class> <!-- testCases.SearchItemTest -->
+      <class name="testCases.CartItemsTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verify_CartItemsTest"/>
+        </methods>
+      </class> <!-- testCases.CartItemsTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

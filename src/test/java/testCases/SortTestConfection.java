@@ -35,9 +35,6 @@ public class SortTestConfection extends BaseClass {
 			Assert.assertTrue(pricesLowToHigh);
 			logger.info("$$$$$$$$$ Verified Sort price $$$$$$$$$");
 			
-			
-	
-			
 		}
 		catch(Exception e) {
 			System.out.println(e);

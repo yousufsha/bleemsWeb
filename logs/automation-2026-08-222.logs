@@ -1,0 +1,42 @@
+2026-08-10 13:50:20,529(HH:mm:ss.SSS) [main] INFO  testCases.CartQuantityItems - Cart Item Count : 3
+2026-08-10 13:50:37,288(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - *************Account is logged in*****************
+2026-08-10 13:50:43,635(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Search value entered : Marble & Wooden Set
+2026-08-10 13:50:45,609(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Search product clicked
+2026-08-10 13:50:45,676(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Product title : Marble & Wooden Set
+2026-08-10 13:50:45,676(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Verified Product Title
+2026-08-10 13:50:45,978(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Address Selected
+2026-08-10 13:50:49,812(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Date Selected
+2026-08-10 13:50:50,573(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Item added to cart successfully
+2026-08-10 13:50:55,436(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Cart Item Count : 3
+2026-08-10 13:50:55,436(HH:mm:ss.SSS) [main] INFO  testCases.RemoveItemCartTest - Cart Item Count : 1
+2026-08-10 13:51:11,410(HH:mm:ss.SSS) [main] INFO  testCases.TopSectionItemsTest - *************Account is logged in*****************
+2026-08-10 13:51:41,401(HH:mm:ss.SSS) [main] INFO  testCases.ShopThrowShops - *************Account is logged in*****************
+2026-08-10 13:51:47,017(HH:mm:ss.SSS) [main] INFO  testCases.ShopThrowShops - shop section clicked
+2026-08-10 13:51:47,905(HH:mm:ss.SSS) [main] INFO  testCases.ShopThrowShops - verified flower shops list
+2026-08-10 13:51:49,054(HH:mm:ss.SSS) [main] INFO  testCases.ShopThrowShops - shop clicked
+2026-08-10 13:51:49,130(HH:mm:ss.SSS) [main] INFO  testCases.ShopThrowShops - shop verified
+2026-08-10 13:51:49,421(HH:mm:ss.SSS) [main] INFO  testCases.ShopThrowShops - sort verification
+2026-08-10 13:51:52,059(HH:mm:ss.SSS) [main] INFO  testCases.ShopThrowShops - Address selected
+2026-08-10 13:51:54,398(HH:mm:ss.SSS) [main] INFO  testCases.ShopThrowShops - Date is clickedselected
+2026-08-10 13:51:56,844(HH:mm:ss.SSS) [main] INFO  testCases.ShopThrowShops - Date and Time selected
+2026-08-10 13:51:57,264(HH:mm:ss.SSS) [main] INFO  testCases.ShopThrowShops - Send button clicked
+2026-08-10 14:21:58,520(HH:mm:ss.SSS) [main] INFO  testCases.LoginTest - *************Account is logged in*****************
+2026-08-10 14:22:08,727(HH:mm:ss.SSS) [main] INFO  testCases.LoginTest - *************Account button is clicked*****************
+2026-08-10 14:22:08,788(HH:mm:ss.SSS) [main] INFO  testCases.LoginTest - *************logged in Verified*****************
+2026-08-10 14:22:48,253(HH:mm:ss.SSS) [main] INFO  testCases.LogoutTest - *************Account is logged in*****************
+2026-08-10 14:22:54,826(HH:mm:ss.SSS) [main] INFO  testCases.LogoutTest - *************logout button clicked***************
+2026-08-10 14:23:00,079(HH:mm:ss.SSS) [main] INFO  testCases.LogoutTest - *************Verified logout***************
+2026-08-10 14:23:14,391(HH:mm:ss.SSS) [main] INFO  testCases.LogInOutHomePageTest - *************Account is logged in*****************
+2026-08-10 14:23:19,593(HH:mm:ss.SSS) [main] INFO  testCases.LogInOutHomePageTest - *************Account button is clicked*****************
+2026-08-10 14:23:19,762(HH:mm:ss.SSS) [main] INFO  testCases.LogInOutHomePageTest - ************ log in Verified *****************
+2026-08-10 14:23:20,142(HH:mm:ss.SSS) [main] INFO  testCases.LogInOutHomePageTest - *************verified Homepage Loaded**************
+2026-08-10 14:23:20,381(HH:mm:ss.SSS) [main] INFO  testCases.LogInOutHomePageTest - *************logout button clicked***************
+2026-08-10 14:23:23,661(HH:mm:ss.SSS) [main] INFO  testCases.LogInOutHomePageTest - *************Verified logout***************
+2026-08-10 14:23:38,445(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Account is logged in*****************
+2026-08-10 14:23:44,713(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Search Value Entered***************
+2026-08-10 14:23:46,731(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Search product clicked***************
+2026-08-10 14:23:46,782(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Product title copied***************
+2026-08-10 14:23:46,782(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Verified Product Title ***************
+2026-08-10 14:23:46,823(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Verified Product Price not Empty ***************
+2026-08-10 14:23:46,840(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - *************Verified Product Discribtion not Empty ***************
+2026-08-10 14:23:46,918(HH:mm:ss.SSS) [main] INFO  testCases.LoginCheckoutTest - ***********Send button clicked*************

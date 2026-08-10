@@ -88,7 +88,11 @@ public class CartPage extends BasePage{
 	    }
 	}
 	
-	
+	@FindBy(xpath="//span[@class='spn-cart-name']")
+	WebElement itemNameCart;
+	public String getItemNameCart() {
+		return wait.until(ExpectedConditions.visibilityOf(itemNameCart)).getText().trim();
+	}
 	
 	
 	

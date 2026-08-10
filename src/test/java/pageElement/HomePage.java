@@ -91,7 +91,7 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//button[@role='tab'][normalize-space()='Products']")
 	WebElement productSearch;
 	public void selectProductSearchBtn() {
-		wait.until(ExpectedConditions.visibilityOf(productSearch)).click();
+		wait.until(ExpectedConditions.elementToBeClickable(productSearch)).click();
 	}
 	
 	@FindBy(xpath="//a[@href='https://pci.bleems.com/kw/cart']")
