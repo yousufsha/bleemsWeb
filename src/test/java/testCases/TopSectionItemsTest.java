@@ -5,13 +5,12 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import base.BaseClass;
-import pageElement.FiltersPage;
 import pageElement.SectionsTabs;
 
 public class TopSectionItemsTest extends BaseClass{
 	
 	@Parameters({"env"})
-	@Test
+	@Test(groups= {"loginUser","guestUser"})
 	public void verify_TopSestions(String env) {
 		try {
 			 switch(env) {  

@@ -12,7 +12,7 @@ import pageElement.ShopsPage;
 
 public class ShopThrowShops extends BaseClass {
 	
-	@Test
+	@Test(groups= {"loginUser","guestUser"})
 	public void Verify_shoppingViaShops() throws InterruptedException  {
 		try {
 			

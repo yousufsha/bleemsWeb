@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="13" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-12T13:18:24 AST" name="Suite" finished-at="2026-08-12T13:26:33 AST" duration-ms="489275">
+    <groups>
+      <group name="loginUser">
+        <method signature="CartItemsTest.verify_CartItemsTest()[pri:0, instance:testCases.CartItemsTest@397fbdb]" name="verify_CartItemsTest" class="testCases.CartItemsTest"/>
+        <method signature="CartQuantityItems.verify_CartQuantityItemsTest()[pri:0, instance:testCases.CartQuantityItems@33d512c1]" name="verify_CartQuantityItemsTest" class="testCases.CartQuantityItems"/>
+        <method signature="FilterGiftTest.VerifyFilterGift()[pri:0, instance:testCases.FilterGiftTest@41d477ed]" name="VerifyFilterGift" class="testCases.FilterGiftTest"/>
+        <method signature="LogInOutHomePageTest.verify_HomePageElements()[pri:0, instance:testCases.LogInOutHomePageTest@34123d65]" name="verify_HomePageElements" class="testCases.LogInOutHomePageTest"/>
+        <method signature="LoginCheckoutTest.verify_CheckoutPrice()[pri:0, instance:testCases.LoginCheckoutTest@59474f18]" name="verify_CheckoutPrice" class="testCases.LoginCheckoutTest"/>
+        <method signature="LoginTest.verify_login()[pri:0, instance:testCases.LoginTest@9597028]" name="verify_login" class="testCases.LoginTest"/>
+        <method signature="LogoutTest.verify_Logout()[pri:0, instance:testCases.LogoutTest@4802796d]" name="verify_Logout" class="testCases.LogoutTest"/>
+        <method signature="ProductDetailsTest.verify_ProductDetails()[pri:0, instance:testCases.ProductDetailsTest@3590fc5b]" name="verify_ProductDetails" class="testCases.ProductDetailsTest"/>
+        <method signature="RemoveItemCartTest.verify_RemoveItemCartTest()[pri:0, instance:testCases.RemoveItemCartTest@515c6049]" name="verify_RemoveItemCartTest" class="testCases.RemoveItemCartTest"/>
+        <method signature="SearchItemTest.verify_itemSearch()[pri:0, instance:testCases.SearchItemTest@3e694b3f]" name="verify_itemSearch" class="testCases.SearchItemTest"/>
+        <method signature="SearchTest.Verify_SearchItem()[pri:0, instance:testCases.SearchTest@65fb9ffc]" name="Verify_SearchItem" class="testCases.SearchTest"/>
+        <method signature="SectionFlowerTest.verifySectionFlower()[pri:0, instance:testCases.SectionFlowerTest@1bb5a082]" name="verifySectionFlower" class="testCases.SectionFlowerTest"/>
+        <method signature="SortTestConfection.verifySort()[pri:0, instance:testCases.SortTestConfection@78691363]" name="verifySort" class="testCases.SortTestConfection"/>
+      </group> <!-- loginUser -->
+      <group name="guestUser">
+        <method signature="CartItemsTest.verify_CartItemsTest()[pri:0, instance:testCases.CartItemsTest@397fbdb]" name="verify_CartItemsTest" class="testCases.CartItemsTest"/>
+        <method signature="CartQuantityItems.verify_CartQuantityItemsTest()[pri:0, instance:testCases.CartQuantityItems@33d512c1]" name="verify_CartQuantityItemsTest" class="testCases.CartQuantityItems"/>
+        <method signature="FilterGiftTest.VerifyFilterGift()[pri:0, instance:testCases.FilterGiftTest@41d477ed]" name="VerifyFilterGift" class="testCases.FilterGiftTest"/>
+        <method signature="LogInOutHomePageTest.verify_HomePageElements()[pri:0, instance:testCases.LogInOutHomePageTest@34123d65]" name="verify_HomePageElements" class="testCases.LogInOutHomePageTest"/>
+        <method signature="ProductDetailsTest.verify_ProductDetails()[pri:0, instance:testCases.ProductDetailsTest@3590fc5b]" name="verify_ProductDetails" class="testCases.ProductDetailsTest"/>
+        <method signature="RemoveItemCartTest.verify_RemoveItemCartTest()[pri:0, instance:testCases.RemoveItemCartTest@515c6049]" name="verify_RemoveItemCartTest" class="testCases.RemoveItemCartTest"/>
+        <method signature="SearchItemTest.verify_itemSearch()[pri:0, instance:testCases.SearchItemTest@3e694b3f]" name="verify_itemSearch" class="testCases.SearchItemTest"/>
+        <method signature="SearchTest.Verify_SearchItem()[pri:0, instance:testCases.SearchTest@65fb9ffc]" name="Verify_SearchItem" class="testCases.SearchTest"/>
+        <method signature="SectionFlowerTest.verifySectionFlower()[pri:0, instance:testCases.SectionFlowerTest@1bb5a082]" name="verifySectionFlower" class="testCases.SectionFlowerTest"/>
+        <method signature="SortTestConfection.verifySort()[pri:0, instance:testCases.SortTestConfection@78691363]" name="verifySort" class="testCases.SortTestConfection"/>
+      </group> <!-- guestUser -->
+    </groups>
+    <test started-at="2026-08-12T13:18:24 AST" name="Test" finished-at="2026-08-12T13:26:33 AST" duration-ms="489275">
+      <class name="testCases.FilterGiftTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.FilterGiftTest@41d477ed]" started-at="2026-08-12T13:23:11 AST" name="setUp" finished-at="2026-08-12T13:23:27 AST" duration-ms="15907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[live]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shameem@bleems.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yousuf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyFilterGift()[pri:0, instance:testCases.FilterGiftTest@41d477ed]" started-at="2026-08-12T13:23:27 AST" name="VerifyFilterGift" finished-at="2026-08-12T13:23:35 AST" duration-ms="7967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyFilterGift -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.FilterGiftTest@41d477ed]" started-at="2026-08-12T13:23:35 AST" name="tearDown" finished-at="2026-08-12T13:23:35 AST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.FilterGiftTest -->
+      <class name="testCases.ProductDetailsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ProductDetailsTest@3590fc5b]" started-at="2026-08-12T13:23:35 AST" name="setUp" finished-at="2026-08-12T13:23:50 AST" duration-ms="14936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[live]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shameem@bleems.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yousuf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_ProductDetails()[pri:0, instance:testCases.ProductDetailsTest@3590fc5b]" started-at="2026-08-12T13:23:50 AST" name="verify_ProductDetails" finished-at="2026-08-12T13:23:57 AST" duration-ms="7416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_ProductDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ProductDetailsTest@3590fc5b]" started-at="2026-08-12T13:23:57 AST" name="tearDown" finished-at="2026-08-12T13:23:57 AST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ProductDetailsTest -->
+      <class name="testCases.SortTestConfection">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.SortTestConfection@78691363]" started-at="2026-08-12T13:22:42 AST" name="setUp" finished-at="2026-08-12T13:23:00 AST" duration-ms="18305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[live]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shameem@bleems.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yousuf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySort()[pri:0, instance:testCases.SortTestConfection@78691363]" started-at="2026-08-12T13:23:00 AST" name="verifySort" finished-at="2026-08-12T13:23:11 AST" duration-ms="10877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySort -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.SortTestConfection@78691363]" started-at="2026-08-12T13:23:11 AST" name="tearDown" finished-at="2026-08-12T13:23:11 AST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.SortTestConfection -->
+      <class name="testCases.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginTest@9597028]" started-at="2026-08-12T13:18:24 AST" name="setUp" finished-at="2026-08-12T13:18:42 AST" duration-ms="18629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[live]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shameem@bleems.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yousuf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_login()[pri:0, instance:testCases.LoginTest@9597028]" started-at="2026-08-12T13:18:42 AST" name="verify_login" finished-at="2026-08-12T13:18:49 AST" duration-ms="6870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginTest@9597028]" started-at="2026-08-12T13:18:49 AST" name="tearDown" finished-at="2026-08-12T13:18:50 AST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoginTest -->
+      <class name="testCases.SearchTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.SearchTest@65fb9ffc]" started-at="2026-08-12T13:20:53 AST" name="setUp" finished-at="2026-08-12T13:21:05 AST" duration-ms="12302" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[live]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shameem@bleems.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yousuf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_SearchItem()[pri:0, instance:testCases.SearchTest@65fb9ffc]" started-at="2026-08-12T13:21:05 AST" name="Verify_SearchItem" finished-at="2026-08-12T13:21:19 AST" duration-ms="13828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_SearchItem -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.SearchTest@65fb9ffc]" started-at="2026-08-12T13:21:19 AST" name="tearDown" finished-at="2026-08-12T13:21:19 AST" duration-ms="197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.SearchTest -->
+      <class name="testCases.TopSectionItemsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TopSectionItemsTest@639c2c1d]" started-at="2026-08-12T13:25:26 AST" name="setUp" finished-at="2026-08-12T13:25:41 AST" duration-ms="15287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[live]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shameem@bleems.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yousuf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_TopSestions(java.lang.String)[pri:0, instance:testCases.TopSectionItemsTest@639c2c1d]" started-at="2026-08-12T13:25:41 AST" name="verify_TopSestions" finished-at="2026-08-12T13:25:58 AST" duration-ms="16613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[live]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_TopSestions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TopSectionItemsTest@639c2c1d]" started-at="2026-08-12T13:25:58 AST" name="tearDown" finished-at="2026-08-12T13:25:58 AST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TopSectionItemsTest -->
+      <class name="testCases.SectionFlowerTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.SectionFlowerTest@1bb5a082]" started-at="2026-08-12T13:21:56 AST" name="setUp" finished-at="2026-08-12T13:22:22 AST" duration-ms="26281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[live]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shameem@bleems.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yousuf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySectionFlower()[pri:0, instance:testCases.SectionFlowerTest@1bb5a082]" started-at="2026-08-12T13:22:22 AST" name="verifySectionFlower" finished-at="2026-08-12T13:22:41 AST" duration-ms="18963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySectionFlower -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.SectionFlowerTest@1bb5a082]" started-at="2026-08-12T13:22:41 AST" name="tearDown" finished-at="2026-08-12T13:22:42 AST" duration-ms="155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.SectionFlowerTest -->
+      <class name="testCases.LoginCheckoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LoginCheckoutTest@59474f18]" started-at="2026-08-12T13:19:58 AST" name="setUp" finished-at="2026-08-12T13:20:26 AST" duration-ms="27550" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[live]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shameem@bleems.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yousuf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_CheckoutPrice()[pri:0, instance:testCases.LoginCheckoutTest@59474f18]" started-at="2026-08-12T13:20:26 AST" name="verify_CheckoutPrice" finished-at="2026-08-12T13:20:53 AST" duration-ms="26856" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at testCases.LoginCheckoutTest.verify_CheckoutPrice(LoginCheckoutTest.java:85)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_CheckoutPrice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LoginCheckoutTest@59474f18]" started-at="2026-08-12T13:20:53 AST" name="tearDown" finished-at="2026-08-12T13:20:53 AST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LoginCheckoutTest -->
+      <class name="testCases.LogInOutHomePageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LogInOutHomePageTest@34123d65]" started-at="2026-08-12T13:19:21 AST" name="setUp" finished-at="2026-08-12T13:19:41 AST" duration-ms="20670" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[live]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shameem@bleems.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yousuf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_HomePageElements()[pri:0, instance:testCases.LogInOutHomePageTest@34123d65]" started-at="2026-08-12T13:19:41 AST" name="verify_HomePageElements" finished-at="2026-08-12T13:19:58 AST" duration-ms="16808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_HomePageElements -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LogInOutHomePageTest@34123d65]" started-at="2026-08-12T13:19:58 AST" name="tearDown" finished-at="2026-08-12T13:19:58 AST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LogInOutHomePageTest -->
+      <class name="testCases.CartQuantityItems">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.CartQuantityItems@33d512c1]" started-at="2026-08-12T13:24:27 AST" name="setUp" finished-at="2026-08-12T13:24:42 AST" duration-ms="15113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[live]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shameem@bleems.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yousuf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_CartQuantityItemsTest()[pri:0, instance:testCases.CartQuantityItems@33d512c1]" started-at="2026-08-12T13:24:42 AST" name="verify_CartQuantityItemsTest" finished-at="2026-08-12T13:24:54 AST" duration-ms="12330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_CartQuantityItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CartQuantityItems@33d512c1]" started-at="2026-08-12T13:24:54 AST" name="tearDown" finished-at="2026-08-12T13:24:54 AST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.CartQuantityItems -->
+      <class name="testCases.RemoveItemCartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.RemoveItemCartTest@515c6049]" started-at="2026-08-12T13:24:54 AST" name="setUp" finished-at="2026-08-12T13:25:09 AST" duration-ms="14837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[live]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shameem@bleems.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yousuf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_RemoveItemCartTest()[pri:0, instance:testCases.RemoveItemCartTest@515c6049]" started-at="2026-08-12T13:25:09 AST" name="verify_RemoveItemCartTest" finished-at="2026-08-12T13:25:26 AST" duration-ms="16623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_RemoveItemCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.RemoveItemCartTest@515c6049]" started-at="2026-08-12T13:25:26 AST" name="tearDown" finished-at="2026-08-12T13:25:26 AST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.RemoveItemCartTest -->
+      <class name="testCases.ShopThrowShops">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.ShopThrowShops@5fe94a96]" started-at="2026-08-12T13:25:58 AST" name="setUp" finished-at="2026-08-12T13:26:15 AST" duration-ms="16677" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[live]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shameem@bleems.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yousuf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Verify_shoppingViaShops()[pri:0, instance:testCases.ShopThrowShops@5fe94a96]" started-at="2026-08-12T13:26:15 AST" name="Verify_shoppingViaShops" finished-at="2026-08-12T13:26:33 AST" duration-ms="18013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_shoppingViaShops -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ShopThrowShops@5fe94a96]" started-at="2026-08-12T13:26:33 AST" name="tearDown" finished-at="2026-08-12T13:26:33 AST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ShopThrowShops -->
+      <class name="testCases.CartItemsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.CartItemsTest@397fbdb]" started-at="2026-08-12T13:23:57 AST" name="setUp" finished-at="2026-08-12T13:24:13 AST" duration-ms="15323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[live]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shameem@bleems.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yousuf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_CartItemsTest()[pri:0, instance:testCases.CartItemsTest@397fbdb]" started-at="2026-08-12T13:24:13 AST" name="verify_CartItemsTest" finished-at="2026-08-12T13:24:27 AST" duration-ms="13832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_CartItemsTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CartItemsTest@397fbdb]" started-at="2026-08-12T13:24:27 AST" name="tearDown" finished-at="2026-08-12T13:24:27 AST" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.CartItemsTest -->
+      <class name="testCases.LogoutTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.LogoutTest@4802796d]" started-at="2026-08-12T13:18:50 AST" name="setUp" finished-at="2026-08-12T13:19:07 AST" duration-ms="17921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[live]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shameem@bleems.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yousuf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_Logout()[pri:0, instance:testCases.LogoutTest@4802796d]" started-at="2026-08-12T13:19:07 AST" name="verify_Logout" finished-at="2026-08-12T13:19:20 AST" duration-ms="12959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.LogoutTest@4802796d]" started-at="2026-08-12T13:19:20 AST" name="tearDown" finished-at="2026-08-12T13:19:21 AST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.LogoutTest -->
+      <class name="testCases.SearchItemTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.SearchItemTest@3e694b3f]" started-at="2026-08-12T13:21:19 AST" name="setUp" finished-at="2026-08-12T13:21:44 AST" duration-ms="24882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loginUser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[live]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[shameem@bleems.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Yousuf@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_itemSearch()[pri:0, instance:testCases.SearchItemTest@3e694b3f]" started-at="2026-08-12T13:21:44 AST" name="verify_itemSearch" finished-at="2026-08-12T13:21:56 AST" duration-ms="12051" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Luxury Bouquet 150] but found [White Roses 150]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Luxury Bouquet 150] but found [White Roses 150]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at testCases.SearchItemTest.verify_itemSearch(SearchItemTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_itemSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.SearchItemTest@3e694b3f]" started-at="2026-08-12T13:21:56 AST" name="tearDown" finished-at="2026-08-12T13:21:56 AST" duration-ms="182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.SearchItemTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
